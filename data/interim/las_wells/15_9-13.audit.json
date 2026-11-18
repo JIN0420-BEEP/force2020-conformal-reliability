@@ -1,0 +1,15 @@
+{
+  "well_id": "15_9-13",
+  "source_file": "15_9-13.las",
+  "rows_total": 21441,
+  "rows_labeled": 18270,
+  "label_nonmissing": 18270,
+  "label_missing_rate": 0.14789422135161612,
+  "confidence_nonmissing": 18277,
+  "x_median": 437631.1875,
+  "y_median": 6470978.5,
+  "coordinate_spread_m": 14.781884808913295,
+  "n_classes": 8,
+  "min_class_count": 17,
+  "max_class_count": 12547
+}

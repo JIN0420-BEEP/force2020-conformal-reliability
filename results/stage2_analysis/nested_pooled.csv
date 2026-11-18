@@ -1,0 +1,5 @@
+﻿n_rows,n_wells,accuracy,balanced_accuracy,macro_f1,weighted_f1,log_loss,multiclass_brier,ece_top_label,mean_confidence,aurc,protocol,model,fold,target_accuracy,calibrated_threshold,calibrated_coverage,calibrated_selective_accuracy,calibrated_risk,calibration_fit_rows,calibration_rows,calibration_fit_wells,calibration_wells,spatial_scheme
+,,,,,,,,,,,random_point,hist_gradient_boosting_nested,-1,0.9,0.9152122567163896,0.5496864406779661,0.9804356875260164,0.0195643124739836,,,,,blocks5_buffer20
+,,,,,,,,,,,well_grouped,hist_gradient_boosting_nested,-1,0.9,0.8295388162202946,0.587093220338983,0.8787476363006481,0.1212523636993518,,,,,blocks5_buffer20
+,,,,,,,,,,,spatial_block,hist_gradient_boosting_nested,-1,0.9,0.911586772071992,0.4375677966101695,0.8568551120407492,0.1431448879592508,,,,,blocks5_buffer20
+,,,,,,,,,,,spatial_block,hist_gradient_boosting_nested,-1,0.9,0.8931080035030721,0.4651188118811881,0.8614002597015561,0.1385997402984439,,,,,blocks6_buffer30

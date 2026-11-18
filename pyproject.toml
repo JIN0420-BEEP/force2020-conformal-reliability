@@ -1,0 +1,42 @@
+[project]
+name = "force2020-reliability"
+version = "0.1.0"
+description = "Reliability evaluation of FORCE 2020 lithology prediction under well- and spatially blocked validation"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+  "joblib>=1.4",
+  "lasio>=0.32",
+  "lightgbm>=4.6",
+  "matplotlib>=3.9",
+  "numpy>=2.0",
+  "openpyxl>=3.1",
+  "pandas>=2.2",
+  "pyarrow>=17",
+  "scikit-learn>=1.5",
+  "scipy>=1.13",
+]
+
+[dependency-groups]
+dev = [
+  "pytest>=8.3",
+  "ruff>=0.9",
+]
+
+[project.scripts]
+force2020 = "force2020_reliability.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/force2020_reliability"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

@@ -1,0 +1,13 @@
+﻿class_code,rows,n_wells,retained,lithology_name
+30000,207704,118,True,Sandstone
+65000,877043,118,True,Shale
+65030,180820,117,True,Sandstone/Shale
+70000,69498,114,True,Limestone
+70032,14043,15,True,Chalk
+74000,2391,47,True,Dolomite
+80000,41038,92,True,Marl
+86000,1808,10,True,Anhydrite
+88000,14712,4,False,Halite
+90000,4754,63,True,Coal
+93000,141,1,False,Basement
+99000,17431,67,True,Tuff

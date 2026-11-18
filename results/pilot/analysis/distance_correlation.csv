@@ -1,0 +1,5 @@
+﻿protocol,model,spearman_rho_distance_accuracy,p_value,n_wells
+spatial_block,hist_gradient_boosting,0.07917134020100057,0.39410056968782936,118
+spatial_block,random_forest,0.11351636752082431,0.22097587679462954,118
+well_grouped,hist_gradient_boosting,-0.14461603233401074,0.11818563958874743,118
+well_grouped,random_forest,-0.15426525937713606,0.09533341351514935,118

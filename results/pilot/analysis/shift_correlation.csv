@@ -1,0 +1,9 @@
+﻿protocol,model,descriptor,spearman_rho,p_value,n_wells
+well_grouped,hist_gradient_boosting,strat_group_js,-0.17051757924499825,0.06487453053240137,118
+well_grouped,hist_gradient_boosting,lithology_js,-0.1818264868612639,0.048772597446146114,118
+spatial_block,hist_gradient_boosting,strat_group_js,-0.15997370301039276,0.08355469973738831,118
+spatial_block,hist_gradient_boosting,lithology_js,-0.1708730514576076,0.0643095345865066,118
+well_grouped,random_forest,strat_group_js,-0.17894446873812642,0.05252309115044902,118
+well_grouped,random_forest,lithology_js,-0.06368931304819393,0.4932339378327208,118
+spatial_block,random_forest,strat_group_js,-0.10855673586249363,0.24194601442256078,118
+spatial_block,random_forest,lithology_js,-0.06465068609686464,0.48671797538999984,118

@@ -1,0 +1,15 @@
+{
+  "well_id": "34_3-3 A",
+  "source_file": "34_3-3 A.las",
+  "rows_total": 30228,
+  "rows_labeled": 18190,
+  "label_nonmissing": 18190,
+  "label_missing_rate": 0.3982400423448459,
+  "confidence_nonmissing": 18242,
+  "x_median": 485600.5625,
+  "y_median": 6852332.25,
+  "coordinate_spread_m": 640.5646452177202,
+  "n_classes": 8,
+  "min_class_count": 8,
+  "max_class_count": 16356
+}

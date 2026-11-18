@@ -1,0 +1,23 @@
+{
+  "seed": 20261021,
+  "n_folds": 5,
+  "spatial_clusters": 5,
+  "spatial_buffer_m": 20000,
+  "min_class_count": 50,
+  "min_class_wells": 5,
+  "pilot_max_rows_per_well": 250,
+  "target_column": "FORCE_2020_LITHOFACIES_LITHOLOGY",
+  "confidence_column": "FORCE_2020_LITHOFACIES_CONFIDENCE",
+  "numeric_features": [
+    "DEPTH_MD", "x_loc", "y_loc", "z_loc", "CALI", "MUDWEIGHT", "ROP",
+    "RDEP", "RSHA", "RMED", "RXO", "SP", "DTC", "NPHI", "PEF", "GR",
+    "RHOB", "DRHO"
+  ],
+  "curve_columns": [
+    "DEPTH_MD", "x_loc", "y_loc", "z_loc", "CALI", "MUDWEIGHT", "ROP",
+    "RDEP", "RSHA", "RMED", "RXO", "SP", "DTC", "NPHI", "PEF", "GR",
+    "RHOB", "DRHO", "FORCE_2020_LITHOFACIES_CONFIDENCE",
+    "FORCE_2020_LITHOFACIES_LITHOLOGY"
+  ],
+  "models": ["hist_gradient_boosting", "random_forest"]
+}

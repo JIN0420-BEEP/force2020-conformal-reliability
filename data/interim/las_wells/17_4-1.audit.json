@@ -1,0 +1,15 @@
+{
+  "well_id": "17_4-1",
+  "source_file": "17_4-1.las",
+  "rows_total": 25420,
+  "rows_labeled": 17271,
+  "label_nonmissing": 17271,
+  "label_missing_rate": 0.32057435090479935,
+  "confidence_nonmissing": 17676,
+  "x_median": 515574.4375,
+  "y_median": 6495507.0,
+  "coordinate_spread_m": 0.0,
+  "n_classes": 9,
+  "min_class_count": 141,
+  "max_class_count": 6498
+}

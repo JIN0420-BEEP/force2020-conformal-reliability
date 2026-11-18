@@ -1,0 +1,23 @@
+{
+  "n_rows": 29500,
+  "n_wells": 118,
+  "accuracy": 0.7159322033898305,
+  "balanced_accuracy": 0.4691505255873147,
+  "macro_f1": 0.45013277773421106,
+  "weighted_f1": 0.7146800693033689,
+  "log_loss": 0.9725605212827402,
+  "multiclass_brier": 0.4650982318789952,
+  "ece_top_label": 0.21068736225817802,
+  "mean_confidence": 0.5052448411316525,
+  "aurc": 0.1417195679266996,
+  "protocol": "well_grouped",
+  "model": "random_forest",
+  "fold": -1,
+  "train_rows": 118000,
+  "test_rows": 29500,
+  "train_wells": 472,
+  "test_wells": 118,
+  "target_accuracy": 0.9,
+  "coverage_at_target": 0.39396610169491525,
+  "threshold_at_target": 0.5404740030502267
+}

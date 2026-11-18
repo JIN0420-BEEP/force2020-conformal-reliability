@@ -1,0 +1,10 @@
+{
+  "protocol": "random_point",
+  "model": "hist_gradient_boosting_nested",
+  "fold": -1,
+  "target_accuracy": 0.9,
+  "calibrated_threshold": 0.9152122567163895,
+  "calibrated_coverage": 0.5496864406779661,
+  "calibrated_selective_accuracy": 0.9804356875260164,
+  "calibrated_risk": 0.019564312473983603
+}

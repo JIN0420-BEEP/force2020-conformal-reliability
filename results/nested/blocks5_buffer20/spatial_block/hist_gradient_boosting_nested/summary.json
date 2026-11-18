@@ -1,0 +1,10 @@
+{
+  "protocol": "spatial_block",
+  "model": "hist_gradient_boosting_nested",
+  "fold": -1,
+  "target_accuracy": 0.9,
+  "calibrated_threshold": 0.9115867720719919,
+  "calibrated_coverage": 0.4375677966101695,
+  "calibrated_selective_accuracy": 0.8568551120407492,
+  "calibrated_risk": 0.14314488795925084
+}

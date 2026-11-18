@@ -1,0 +1,8 @@
+{
+  "n_wells": 118,
+  "n_labeled_rows": 1431383,
+  "n_classes": 12,
+  "wells_with_coordinates": 118,
+  "label_nonmissing_rate": 0.6123199518830752,
+  "coordinate_spread_p95_m": 282.19349976244735
+}

@@ -1,0 +1,11 @@
+{
+  "sensitivity_runs": 60,
+  "nested_outer_folds": 20,
+  "target_accuracy": 0.9,
+  "nested_targets_met": 8,
+  "outputs": {
+    "sensitivity_summary": "D:\\Users\\PPP\\Documents\\ChatGPT\\个人网站\\research\\force2020-reliability\\results\\stage2_analysis\\sensitivity_summary.csv",
+    "nested_summary": "D:\\Users\\PPP\\Documents\\ChatGPT\\个人网站\\research\\force2020-reliability\\results\\stage2_analysis\\nested_summary.csv",
+    "nested_pooled": "D:\\Users\\PPP\\Documents\\ChatGPT\\个人网站\\research\\force2020-reliability\\results\\stage2_analysis\\nested_pooled.csv"
+  }
+}

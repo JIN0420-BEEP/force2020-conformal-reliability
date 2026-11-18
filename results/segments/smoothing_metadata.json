@@ -1,0 +1,11 @@
+{
+  "min_runs_m": [
+    1.0,
+    3.0,
+    5.0,
+    10.0
+  ],
+  "gap_threshold_m": 0.5,
+  "boundary_tolerance_m": 0.5,
+  "prediction_files": 20
+}

@@ -1,0 +1,16 @@
+{
+  "models": [
+    "hist_gradient_boosting",
+    "lightgbm"
+  ],
+  "protocols": [
+    "well_grouped",
+    "spatial_block"
+  ],
+  "gap_threshold_m": 0.5,
+  "boundary_tolerance_m": 0.5,
+  "training_rows_per_fold": 95000,
+  "predicted_row_records": 5638276,
+  "n_test_wells": 118,
+  "evaluated_folds": 5
+}

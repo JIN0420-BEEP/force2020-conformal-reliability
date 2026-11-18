@@ -1,0 +1,405 @@
+{
+  "created_at_utc": "2026-10-26T07:55:12.148811+00:00",
+  "study": "FORCE 2020 lithology reliability pilot",
+  "data_source": {
+    "doi": "10.5281/zenodo.4351156",
+    "record_id": 4351156
+  },
+  "config": {
+    "seed": 20261021,
+    "n_folds": 5,
+    "spatial_clusters": 5,
+    "spatial_buffer_m": 20000,
+    "min_class_count": 50,
+    "min_class_wells": 5,
+    "pilot_max_rows_per_well": 250,
+    "target_column": "FORCE_2020_LITHOFACIES_LITHOLOGY",
+    "confidence_column": "FORCE_2020_LITHOFACIES_CONFIDENCE",
+    "numeric_features": [
+      "DEPTH_MD",
+      "x_loc",
+      "y_loc",
+      "z_loc",
+      "CALI",
+      "MUDWEIGHT",
+      "ROP",
+      "RDEP",
+      "RSHA",
+      "RMED",
+      "RXO",
+      "SP",
+      "DTC",
+      "NPHI",
+      "PEF",
+      "GR",
+      "RHOB",
+      "DRHO"
+    ],
+    "curve_columns": [
+      "DEPTH_MD",
+      "x_loc",
+      "y_loc",
+      "z_loc",
+      "CALI",
+      "MUDWEIGHT",
+      "ROP",
+      "RDEP",
+      "RSHA",
+      "RMED",
+      "RXO",
+      "SP",
+      "DTC",
+      "NPHI",
+      "PEF",
+      "GR",
+      "RHOB",
+      "DRHO",
+      "FORCE_2020_LITHOFACIES_CONFIDENCE",
+      "FORCE_2020_LITHOFACIES_LITHOLOGY"
+    ],
+    "models": [
+      "hist_gradient_boosting",
+      "random_forest"
+    ]
+  },
+  "runtime": {
+    "python": "3.13.15",
+    "platform": "Windows-11-10.0.22631-SP0",
+    "packages": {
+      "numpy": "2.5.4",
+      "pandas": "3.0.6",
+      "scikit-learn": "1.9.1",
+      "scipy": "1.18.1",
+      "pyarrow": "26.0.0",
+      "lasio": "0.32",
+      "matplotlib": "3.11.2"
+    }
+  },
+  "commands": [
+    "uv sync --project research/force2020-reliability",
+    "uv run --project research/force2020-reliability force2020 parse --overwrite",
+    "uv run --project research/force2020-reliability force2020 splits",
+    "uv run --project research/force2020-reliability force2020 pilot",
+    "uv run --project research/force2020-reliability force2020 analyze --bootstrap 500",
+    "uv run --project research/force2020-reliability force2020 sensitivity --rows-per-well 1000",
+    "uv run --project research/force2020-reliability force2020 nested --rows-per-well 1000",
+    "uv run --project research/force2020-reliability force2020 stage2",
+    "uv run --project research/force2020-reliability force2020 ablation --rows-per-well 1000",
+    "uv run pytest  # 8 passed in research/force2020-reliability"
+  ],
+  "outputs": {
+    "key_files": [
+      {
+        "path": "data\\raw\\LAS_files_Force_2020_all_wells_train_test_blind_hidden_final.zip",
+        "bytes": 169785172,
+        "sha256": "042ef1d473100dc12768cae7107a8cead071a394f137af3bc1ddaf8a5d1b8dda"
+      },
+      {
+        "path": "data\\raw\\NPD_Lithostratigraphy_groups_all_wells.xlsx",
+        "bytes": 80797,
+        "sha256": "f0be5f3061aa0e63b8692f71264635ccb7d52cb148b00beaf7a59cd495c49025"
+      },
+      {
+        "path": "data\\interim\\parse_summary.json",
+        "bytes": 204,
+        "sha256": "37d864d88e2eb12b5668e46e2a3360756da5013b5773c1e7b30d29c74dba51fd"
+      },
+      {
+        "path": "data\\interim\\class_counts.csv",
+        "bytes": 248,
+        "sha256": "bc361bcf500ca200b9411f493b7097b3d1fcc2c557570d0a730b8ef68063074f"
+      },
+      {
+        "path": "data\\interim\\force2020_labeled_strat.parquet",
+        "bytes": 145402750,
+        "sha256": "21fc44bd39b221a8f29ca23a1765899db82ee2bbdde935ddb23266e7f787f2ad"
+      },
+      {
+        "path": "data\\interim\\splits\\split_summary.json",
+        "bytes": 1454,
+        "sha256": "46fe7da4087b446e5b022403a109bcb058c972e07db13a71e8d5254ed819a40a"
+      },
+      {
+        "path": "data\\interim\\splits\\well_roles.csv",
+        "bytes": 23257,
+        "sha256": "9c75844d02302519ad939f01a9f7474e0d991560482c3676ea4779b9888710d6"
+      },
+      {
+        "path": "data\\interim\\splits\\spatial_well_roles.csv",
+        "bytes": 25501,
+        "sha256": "9742707dca0eac87d4514c52322ce3a20cf8c2cadd8528eb4e3236e871aafe95"
+      },
+      {
+        "path": "results\\pilot\\class_counts.csv",
+        "bytes": 404,
+        "sha256": "95f3101200d08530ab5daa019d406d23f82bb3da26950522b2ccb351442212b8"
+      },
+      {
+        "path": "results\\pilot\\protocol_model_summary.csv",
+        "bytes": 1929,
+        "sha256": "21a0b0bc9d6c506575023588b39ff144755c8733cf97878dfadfca9f08ce50cc"
+      },
+      {
+        "path": "results\\pilot\\analysis\\fold_metric_summary.csv",
+        "bytes": 1699,
+        "sha256": "2e4f5f1c81f81945d3c9a6dd524528fb07854105825bcd47ead4b93685c5c2f1"
+      },
+      {
+        "path": "results\\pilot\\analysis\\bootstrap_by_well.csv",
+        "bytes": 1979,
+        "sha256": "961414e6530a7a6ebd212e476e1c56c297070d984ffc7dcaa0508415aa7b43a6"
+      },
+      {
+        "path": "results\\pilot\\analysis\\distance_correlation.csv",
+        "bytes": 376,
+        "sha256": "e4502a4d61091efc65443e78cef040b8760b3b7cf6c00b5d79f35e657e011b2b"
+      },
+      {
+        "path": "results\\pilot\\analysis\\shift_correlation.csv",
+        "bytes": 792,
+        "sha256": "fb2d61381ae01cb223fa9ea2ff7175cb05b48a265bde3ac929215d246830a14a"
+      },
+      {
+        "path": "results\\sensitivity\\summary.csv",
+        "bytes": 1101,
+        "sha256": "f7ded32d38c1919802e9b094943ed3f150844ec511af3992988393251b0c2899"
+      },
+      {
+        "path": "results\\sensitivity\\fold_metrics.csv",
+        "bytes": 22060,
+        "sha256": "2fa7868fbb0fe28dc337fbcde4ed0427e0d82d74c30094e4525843097a1db870"
+      },
+      {
+        "path": "results\\nested\\all_metrics.csv",
+        "bytes": 8066,
+        "sha256": "f7b616be23b6e4dd7d8631a04d3bb715e37ac28524b5b6179767787083e73023"
+      },
+      {
+        "path": "results\\stage2_analysis\\sensitivity_summary.csv",
+        "bytes": 1025,
+        "sha256": "d2ca69a087e7a28eb783d00819de8f8bdb3cfd154fb8e37e48ea7537599202ff"
+      },
+      {
+        "path": "results\\stage2_analysis\\nested_summary.csv",
+        "bytes": 1308,
+        "sha256": "6db2033b7fe01cf54f8d142d6cc2df2678f6303ce04ba99628839ac527d05f96"
+      },
+      {
+        "path": "results\\stage2_analysis\\summary.json",
+        "bytes": 605,
+        "sha256": "efd467c49e7c6516e9b754c4a421d92646ea1b0bd9809b1efcf5e3ae4be841fb"
+      },
+      {
+        "path": "results\\feature_ablation\\summary.csv",
+        "bytes": 2383,
+        "sha256": "e150dbc7574e44fc407dd64f51d8e78252711d5707eeaa343198a21db0e8db06"
+      },
+      {
+        "path": "results\\feature_ablation\\metadata.json",
+        "bytes": 1303,
+        "sha256": "29b46d4fbd46d63131e39e42a8cc0768958297d395587d654ca3f34bc4029448"
+      },
+      {
+        "path": "REPORT.md",
+        "bytes": 9484,
+        "sha256": "b0bba3544f422c8a01fec885865443e38fdf64e9b2c42a2d738184209994ebef"
+      },
+      {
+        "path": "README.md",
+        "bytes": 887,
+        "sha256": "2cda925420220b348c939fdf61a46056a0f948577008d0b6d593c05d79386ae5"
+      }
+    ],
+    "figures": [
+      {
+        "path": "figures\\01_spatial_blocks.png",
+        "bytes": 248450,
+        "sha256": "d4ed088d1cbbc25f80300763f361052349f1e74b85cac932353798c03c78f0a7"
+      },
+      {
+        "path": "figures\\02_protocol_macro_f1.png",
+        "bytes": 112602,
+        "sha256": "c7f62dd560ddf654f559897abb8d515e6a0c01ce46c473dba82bb3acdb2167fc"
+      },
+      {
+        "path": "figures\\03_risk_coverage.png",
+        "bytes": 188831,
+        "sha256": "61af363c9bbc61b7d56b61b2709d91f8beb5ae032993845ee993fcd4a9c43a13"
+      },
+      {
+        "path": "figures\\04_class_recall.png",
+        "bytes": 221579,
+        "sha256": "04c0a91ea97bb3664cce34eba50009f5925f9302ba26f4934e77683ad4dfc093"
+      },
+      {
+        "path": "figures\\05_strat_group_accuracy.png",
+        "bytes": 274830,
+        "sha256": "5cfc1eba80819e3cf2f75017705764d8d780022fffb9b01a3606dd313b5279b9"
+      },
+      {
+        "path": "figures\\06_distance_accuracy.png",
+        "bytes": 250865,
+        "sha256": "3cc99c4880c55cafcb846fd395436cf35ca81ff62534453c978f55271535eded"
+      },
+      {
+        "path": "figures\\07_split_sensitivity.png",
+        "bytes": 108441,
+        "sha256": "002e911e60cf43dc777e26a869e802df535b65701c5d061acdf714bfeda24247"
+      },
+      {
+        "path": "figures\\08_nested_selective.png",
+        "bytes": 223230,
+        "sha256": "c26ca464283ee933b64a2e251f07d5611f5840e4ff3e5f433466748cd47ded61"
+      },
+      {
+        "path": "figures\\09_feature_ablation.png",
+        "bytes": 73309,
+        "sha256": "ebc5d36aecea61a7e0b9cc3fc938dd7f5abd1a0c1bc7c134dd92bb07be5523a5"
+      }
+    ],
+    "source_files": [
+      {
+        "path": "src\\force2020_reliability\\__init__.py",
+        "bytes": 71,
+        "sha256": "23292afcb3b75fd17d375f9bb528d9e8340711f7e27040f947e058e0d319715a"
+      },
+      {
+        "path": "src\\force2020_reliability\\analysis\\__init__.py",
+        "bytes": 62,
+        "sha256": "0e2851524b480971750c9ef85f6e631c23e21430f73689bbb171103bcfed26ca"
+      },
+      {
+        "path": "src\\force2020_reliability\\analysis\\manifest.py",
+        "bytes": 5008,
+        "sha256": "daf80d5056a5afc85edb1ec6b9468110705726d2bb145eb86a9fe4ae248c1d0f"
+      },
+      {
+        "path": "src\\force2020_reliability\\analysis\\plots.py",
+        "bytes": 11795,
+        "sha256": "3b936ba52e76df9509f3258c7b404929c23daa28d52c15f75764c1c0ac42cef6"
+      },
+      {
+        "path": "src\\force2020_reliability\\analysis\\stage2.py",
+        "bytes": 3493,
+        "sha256": "e08eba75bdba23fbbcea12e23a3273ae32b08896759bdd8e36ce6036b7c41756"
+      },
+      {
+        "path": "src\\force2020_reliability\\analysis\\stage2_plots.py",
+        "bytes": 6322,
+        "sha256": "eac9d61d36498be707161ecd24eca50f89dd8c334044c7d65008e51b697f61bb"
+      },
+      {
+        "path": "src\\force2020_reliability\\analysis\\summarize.py",
+        "bytes": 17531,
+        "sha256": "2861076cdec6143f2aa3b79cf7a923b34181d5202ed24841af2d0a45ebed8aad"
+      },
+      {
+        "path": "src\\force2020_reliability\\cli.py",
+        "bytes": 5940,
+        "sha256": "cb45bf1d7ec12da5caa2e3e30f0493cf15af206f9be0c841680ba52b63a80abd"
+      },
+      {
+        "path": "src\\force2020_reliability\\config.py",
+        "bytes": 1632,
+        "sha256": "535e8d4a48c2e5886621c97666a84e46017b3c8c37c39207cc115874db96caef"
+      },
+      {
+        "path": "src\\force2020_reliability\\data\\__init__.py",
+        "bytes": 35,
+        "sha256": "298c6bf4b0a22b813996f5fee520f1223c6e57024f8d3bbf57632ff66ba13933"
+      },
+      {
+        "path": "src\\force2020_reliability\\data\\download.py",
+        "bytes": 2409,
+        "sha256": "ff27171f407f5dea2ff27d426eeb3551c9d435e99e0835e4a0b473c1f8e5a508"
+      },
+      {
+        "path": "src\\force2020_reliability\\data\\las.py",
+        "bytes": 7991,
+        "sha256": "0c27f9590097288deb92308f066f4142c5cb710dc969268d644c065f6f4f8684"
+      },
+      {
+        "path": "src\\force2020_reliability\\data\\stratigraphy.py",
+        "bytes": 3684,
+        "sha256": "a1286bc990987e003137707637bff66bf8ebc01431297ac5f265e3d27ca12729"
+      },
+      {
+        "path": "src\\force2020_reliability\\evaluation\\__init__.py",
+        "bytes": 48,
+        "sha256": "aff0ef4915cf536c2f4df3b5a99e33ec6adc928ffdbedeac5d88281312a57e6c"
+      },
+      {
+        "path": "src\\force2020_reliability\\evaluation\\metrics.py",
+        "bytes": 5840,
+        "sha256": "f32ba5174b33f94293edfe8b7b303e76a119d21f2367186c33e930efeb74a617"
+      },
+      {
+        "path": "src\\force2020_reliability\\labels.py",
+        "bytes": 876,
+        "sha256": "4da917aa5a1ef40c3d34fb7cf5942200f1cc2f843554dd5487f52bb76e4209f6"
+      },
+      {
+        "path": "src\\force2020_reliability\\models\\__init__.py",
+        "bytes": 33,
+        "sha256": "e20770b0b6c8760e6d7c02753e4dda3f632ca8062dadca3d06051d3078164d08"
+      },
+      {
+        "path": "src\\force2020_reliability\\models\\baselines.py",
+        "bytes": 1232,
+        "sha256": "7446fe38f4e7c50982d0217a9d463b7dc07ca32038c355c7ef9ec2d81697e1d9"
+      },
+      {
+        "path": "src\\force2020_reliability\\models\\feature_ablation.py",
+        "bytes": 3646,
+        "sha256": "4365a6d1ceaf300bb08f3515e7d66d54ad71beab0d3fb4335cc506aecd260618"
+      },
+      {
+        "path": "src\\force2020_reliability\\models\\nested.py",
+        "bytes": 8232,
+        "sha256": "2a0a82cab0f3c5e0895d3e71fcbad3b71956001887ff5b292ff420fa3940742a"
+      },
+      {
+        "path": "src\\force2020_reliability\\models\\runner.py",
+        "bytes": 10116,
+        "sha256": "8a916da995ec9fe16fa52444c43aea1c312c894f31f5b5c1f19594965ce24588"
+      },
+      {
+        "path": "src\\force2020_reliability\\paths.py",
+        "bytes": 483,
+        "sha256": "c785accd491bea153f17fe97287ac84ea5ed9b18484f1570ff132af1eb7c1034"
+      },
+      {
+        "path": "src\\force2020_reliability\\splits\\__init__.py",
+        "bytes": 150,
+        "sha256": "02588915e49cd5719beeb56a5323f9f5b2b004aa4cdcead9d50bc4115dfb41cb"
+      },
+      {
+        "path": "src\\force2020_reliability\\splits\\generate.py",
+        "bytes": 10319,
+        "sha256": "06f63c84c2096cee303bb9ab40e9bc2d480e8cc8b90f534729a65ee092a09438"
+      },
+      {
+        "path": "src\\force2020_reliability\\splits\\sensitivity.py",
+        "bytes": 5526,
+        "sha256": "848d4347a893ac48ef7e9cdcc454696319902dc36be974cb0020b645adb20407"
+      }
+    ],
+    "test_files": [
+      {
+        "path": "tests\\test_evaluation.py",
+        "bytes": 2042,
+        "sha256": "3bd29a506c9779b80ff16aa7277ddb98f5c26f80187f88bc531b72df5d2cc783"
+      },
+      {
+        "path": "tests\\test_splits.py",
+        "bytes": 2393,
+        "sha256": "de294fb47b1c2662ee24d125fe767fdedebd53dd19db5877f670ad062d16f0d4"
+      },
+      {
+        "path": "tests\\test_stage2.py",
+        "bytes": 995,
+        "sha256": "c56de48f2d1836f7055b1ccdb361921b37063d47d8afd677daa98293d16d645b"
+      }
+    ]
+  }
+}

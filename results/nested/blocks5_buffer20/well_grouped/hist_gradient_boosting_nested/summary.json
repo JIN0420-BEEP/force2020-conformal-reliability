@@ -1,0 +1,10 @@
+{
+  "protocol": "well_grouped",
+  "model": "hist_gradient_boosting_nested",
+  "fold": -1,
+  "target_accuracy": 0.9,
+  "calibrated_threshold": 0.8295388162202946,
+  "calibrated_coverage": 0.587093220338983,
+  "calibrated_selective_accuracy": 0.8787476363006481,
+  "calibrated_risk": 0.12125236369935188
+}

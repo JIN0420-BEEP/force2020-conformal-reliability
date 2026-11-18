@@ -1,0 +1,15 @@
+{
+  "well_id": "25_2-13 T4",
+  "source_file": "25_2-13 T4.las",
+  "rows_total": 24492,
+  "rows_labeled": 21062,
+  "label_nonmissing": 21062,
+  "label_missing_rate": 0.14004572921770375,
+  "confidence_nonmissing": 21060,
+  "x_median": 469370.1875,
+  "y_median": 6628712.5,
+  "coordinate_spread_m": 19.373866698785356,
+  "n_classes": 6,
+  "min_class_count": 56,
+  "max_class_count": 12239
+}

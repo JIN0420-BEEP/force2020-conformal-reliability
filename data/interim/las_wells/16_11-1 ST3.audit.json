@@ -1,0 +1,15 @@
+{
+  "well_id": "16_11-1 ST3",
+  "source_file": "16_11-1 ST3.las",
+  "rows_total": 19470,
+  "rows_labeled": 14939,
+  "label_nonmissing": 14939,
+  "label_missing_rate": 0.23271700051361066,
+  "confidence_nonmissing": 14936,
+  "x_median": 474568.25,
+  "y_median": 6436487.5,
+  "coordinate_spread_m": 14.002448614733844,
+  "n_classes": 10,
+  "min_class_count": 6,
+  "max_class_count": 6351
+}

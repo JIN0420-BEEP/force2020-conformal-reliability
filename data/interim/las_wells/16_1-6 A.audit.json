@@ -1,0 +1,15 @@
+{
+  "well_id": "16_1-6 A",
+  "source_file": "16_1-6 A.las",
+  "rows_total": 13513,
+  "rows_labeled": 3623,
+  "label_nonmissing": 3623,
+  "label_missing_rate": 0.731887811736846,
+  "confidence_nonmissing": 3623,
+  "x_median": 459498.9375,
+  "y_median": 6539473.5,
+  "coordinate_spread_m": 64.84772935222372,
+  "n_classes": 4,
+  "min_class_count": 46,
+  "max_class_count": 3208
+}

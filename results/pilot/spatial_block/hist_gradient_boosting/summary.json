@@ -1,0 +1,23 @@
+{
+  "n_rows": 29500,
+  "n_wells": 118,
+  "accuracy": 0.698,
+  "balanced_accuracy": 0.2718655924360714,
+  "macro_f1": 0.28639361279407477,
+  "weighted_f1": 0.6492623649399428,
+  "log_loss": 1.165736079897479,
+  "multiclass_brier": 0.465928975938873,
+  "ece_top_label": 0.1322510542024582,
+  "mean_confidence": 0.8300678854670757,
+  "aurc": 0.16035851090943898,
+  "protocol": "spatial_block",
+  "model": "hist_gradient_boosting",
+  "fold": -1,
+  "train_rows": 107250,
+  "test_rows": 29500,
+  "train_wells": 429,
+  "test_wells": 118,
+  "target_accuracy": 0.9,
+  "coverage_at_target": 0.21216949152542372,
+  "threshold_at_target": 0.9866096735761889
+}

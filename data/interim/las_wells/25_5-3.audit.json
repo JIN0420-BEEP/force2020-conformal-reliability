@@ -1,0 +1,15 @@
+{
+  "well_id": "25_5-3",
+  "source_file": "25_5-3.las",
+  "rows_total": 18058,
+  "rows_labeled": 11324,
+  "label_nonmissing": 11324,
+  "label_missing_rate": 0.37290951378890247,
+  "confidence_nonmissing": 11324,
+  "x_median": 479087.34375,
+  "y_median": 6605456.5,
+  "coordinate_spread_m": 3.9868443709447483,
+  "n_classes": 7,
+  "min_class_count": 50,
+  "max_class_count": 8243
+}

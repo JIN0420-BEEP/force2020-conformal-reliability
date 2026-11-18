@@ -1,0 +1,28 @@
+{
+  "rows_per_well": 1000,
+  "sample_rows": 118000,
+  "sample_wells": 118,
+  "seeds": [
+    20261021,
+    20261022,
+    20261023
+  ],
+  "spatial_schemes": {
+    "blocks5_buffer20": {
+      "clusters": 5,
+      "buffer_m": 20000
+    },
+    "blocks6_buffer30": {
+      "clusters": 6,
+      "buffer_m": 30000
+    }
+  },
+  "models": [
+    "hist_gradient_boosting"
+  ],
+  "protocols": [
+    "random_point",
+    "well_grouped",
+    "spatial_block"
+  ]
+}

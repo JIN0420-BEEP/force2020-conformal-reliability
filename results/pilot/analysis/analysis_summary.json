@@ -1,0 +1,27 @@
+{
+  "result_dir": "D:\\Users\\PPP\\Documents\\ChatGPT\\个人网站\\research\\force2020-reliability\\results\\pilot",
+  "n_folds": 5,
+  "models": [
+    "hist_gradient_boosting",
+    "random_forest"
+  ],
+  "protocols": [
+    "random_point",
+    "spatial_block",
+    "well_grouped"
+  ],
+  "bootstrap_iterations": 500,
+  "outputs": [
+    "fold_metric_summary.csv",
+    "pooled_metrics.csv",
+    "per_class_recall.csv",
+    "strat_group_metrics.csv",
+    "well_metrics.csv",
+    "distance_band_metrics.csv",
+    "bootstrap_by_well.csv",
+    "distance_correlation.csv",
+    "well_distribution_shift.csv",
+    "shift_correlation.csv"
+  ],
+  "unique_wells": 118
+}

@@ -1,0 +1,79 @@
+{
+  "dataset": {
+    "n_wells": 118,
+    "n_rows": 1431383,
+    "n_classes": 12
+  },
+  "random_point_folds_rows": {
+    "0": 286277,
+    "1": 286277,
+    "2": 286277,
+    "3": 286276,
+    "4": 286276
+  },
+  "well_grouped_folds": [
+    {
+      "fold": 0,
+      "n_wells": 24,
+      "rows": 279967,
+      "mean_classes": 6.166666666666667
+    },
+    {
+      "fold": 1,
+      "n_wells": 23,
+      "rows": 284779,
+      "mean_classes": 6.913043478260869
+    },
+    {
+      "fold": 2,
+      "n_wells": 22,
+      "rows": 290588,
+      "mean_classes": 6.909090909090909
+    },
+    {
+      "fold": 3,
+      "n_wells": 25,
+      "rows": 285147,
+      "mean_classes": 6.08
+    },
+    {
+      "fold": 4,
+      "n_wells": 24,
+      "rows": 290902,
+      "mean_classes": 6.458333333333333
+    }
+  ],
+  "spatial_fold_wells": [
+    {
+      "evaluation_fold": 0,
+      "buffer_excluded": 3,
+      "test": 21,
+      "train": 94
+    },
+    {
+      "evaluation_fold": 1,
+      "buffer_excluded": 2,
+      "test": 25,
+      "train": 91
+    },
+    {
+      "evaluation_fold": 2,
+      "buffer_excluded": 11,
+      "test": 26,
+      "train": 81
+    },
+    {
+      "evaluation_fold": 3,
+      "buffer_excluded": 17,
+      "test": 23,
+      "train": 78
+    },
+    {
+      "evaluation_fold": 4,
+      "buffer_excluded": 10,
+      "test": 23,
+      "train": 85
+    }
+  ],
+  "spatial_buffer_m": 20000.0
+}

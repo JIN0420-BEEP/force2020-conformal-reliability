@@ -1,0 +1,15 @@
+{
+  "well_id": "31_2-8",
+  "source_file": "31_2-8.las",
+  "rows_total": 19923,
+  "rows_labeled": 19026,
+  "label_nonmissing": 19026,
+  "label_missing_rate": 0.04502333985845508,
+  "confidence_nonmissing": 19079,
+  "x_median": 526927.375,
+  "y_median": 6758509.0,
+  "coordinate_spread_m": 15.497430996648317,
+  "n_classes": 8,
+  "min_class_count": 90,
+  "max_class_count": 10275
+}

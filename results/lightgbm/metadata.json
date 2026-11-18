@@ -1,0 +1,11 @@
+{
+  "rows_per_well": 1000,
+  "sample_rows": 118000,
+  "model": "lightgbm",
+  "protocols": [
+    "random_point",
+    "well_grouped",
+    "spatial_block"
+  ],
+  "split_seed": 20261021
+}

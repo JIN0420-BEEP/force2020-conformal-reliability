@@ -1,0 +1,15 @@
+{
+  "well_id": "32_2-1",
+  "source_file": "32_2-1.las",
+  "rows_total": 6059,
+  "rows_labeled": 3049,
+  "label_nonmissing": 3049,
+  "label_missing_rate": 0.4967816471364912,
+  "confidence_nonmissing": 3052,
+  "x_median": 572632.0,
+  "y_median": 6738605.5,
+  "coordinate_spread_m": 0.4139312209426731,
+  "n_classes": 4,
+  "min_class_count": 15,
+  "max_class_count": 1659
+}

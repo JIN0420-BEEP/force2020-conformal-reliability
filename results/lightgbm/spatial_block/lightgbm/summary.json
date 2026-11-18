@@ -1,0 +1,23 @@
+{
+  "n_rows": 118000,
+  "n_wells": 118,
+  "accuracy": 0.6546610169491526,
+  "balanced_accuracy": 0.33200736374251505,
+  "macro_f1": 0.3312848800572083,
+  "weighted_f1": 0.643108689478835,
+  "log_loss": 1.1195309962392912,
+  "multiclass_brier": 0.4877437764564472,
+  "ece_top_label": 0.0972579899864184,
+  "mean_confidence": 0.751919006935571,
+  "aurc": 0.18068291489380775,
+  "protocol": "spatial_block",
+  "model": "lightgbm",
+  "fold": -1,
+  "train_rows": 413000,
+  "test_rows": 118000,
+  "train_wells": 413,
+  "test_wells": 118,
+  "target_accuracy": 0.9,
+  "coverage_at_target": 0.21213559322033898,
+  "threshold_at_target": 0.9549387900934357
+}

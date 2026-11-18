@@ -1,0 +1,15 @@
+{
+  "well_id": "30_3-5 S",
+  "source_file": "30_3-5 S.las",
+  "rows_total": 28123,
+  "rows_labeled": 4382,
+  "label_nonmissing": 4382,
+  "label_missing_rate": 0.8441844753404686,
+  "confidence_nonmissing": 4403,
+  "x_median": 496869.671875,
+  "y_median": 6739914.0,
+  "coordinate_spread_m": 145.88223256157744,
+  "n_classes": 5,
+  "min_class_count": 49,
+  "max_class_count": 2792
+}
