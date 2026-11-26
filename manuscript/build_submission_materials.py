@@ -8,16 +8,16 @@ from docx.shared import Pt
 HERE = Path(__file__).resolve().parent
 
 HIGHLIGHTS = [
-    "Conformal coverage is exact under random splits but fails in spatial blocks.",
-    "Spatial block coverage drops to 0.86 against the 0.90 nominal target.",
-    "Coverage loss tracks covariate shift rather than class-prior change.",
-    "Temperature scaling improves calibration but cannot restore coverage.",
-    "Mondrian conformal sets equalize class-conditional coverage.",
+    "Spatial, grouped, and random splits yield different reliability estimates.",
+    "Accuracy near 0.69 hides macro-F1 of 0.26-0.30 and boundary F1 near 0.30.",
+    "Depth and position features mainly help random and in-region-well splits.",
+    "Grouped and spatial coverage is empirical, not a cluster-level guarantee.",
+    "Coverage and macro-F1 patterns are robust to block count and buffer.",
 ]
 
 TITLE = (
-    "Reliability of lithology classification from well logs under spatial "
-    "distribution shift: a split-conformal audit of the FORCE 2020 benchmark"
+    "Automated lithology classification under spatial validation: a "
+    "cluster-aware reliability assessment on the FORCE 2020 benchmark"
 )
 
 
@@ -76,31 +76,68 @@ def build_cover_letter() -> Path:
         "grouped-well, and buffered spatial-block cross-validation."
     )
     para(
-        "Three findings emerge. First, the nominal 90% coverage guarantee is essentially "
-        "exact under random splits (0.965, conservative) and well-grouped validation "
-        "(0.895), but breaks under spatial blocks (0.860; 95% CI 0.845-0.883, p=0.0012). "
-        "Second, the coverage loss is explained by covariate shift rather than class-prior "
-        "shift: empirical coverage is strongly negatively correlated with maximum mean "
-        "discrepancy (Spearman -0.81), while label-distribution divergence stays small. "
-        "Third, temperature scaling markedly improves point calibration yet cannot restore "
-        "spatial coverage, whereas Mondrian conformal sets equalize class-conditional "
-        "coverage. The same pattern is reproduced by a neural-network model, indicating "
-        "that the failure reflects the breakdown of exchangeability rather than any single "
-        "classifier."
+        "The study is designed around the actual deployment unit-whole, spatially "
+        "separated wells-and keeps two evidence scales separate: a single-seed, "
+        "full-data comparison of conformal variants on 1,431,383 points, and a "
+        "three-seed, six-model experiment on 118,000 points whose uncertainty is "
+        "quantified with an equal-well cluster bootstrap. Four findings emerge. "
+        "First, full-data marginal APS coverage is 0.965 (random points), 0.895 "
+        "(grouped wells), and 0.860 (spatial blocks); in the multi-seed well-level "
+        "analysis the corresponding HGB means are 0.963, 0.906, and 0.866 (95% CI "
+        "0.846-0.884), and only two of six learners have well-bootstrap intervals "
+        "entirely below 0.90 under spatial extrapolation, while k-nearest neighbours "
+        "stays above target by issuing sets averaging about six classes. Second, accuracy near 0.69 "
+        "under spatial blocks coexists with macro-F1 of only 0.26-0.30 and balanced "
+        "accuracy near 0.30, and this pattern is robust to changing the block design "
+        "(five blocks/20 km versus six blocks/30 km). Third, spatial folds show much "
+        "larger covariate shift with small label-prior change, but within-protocol "
+        "coverage-shift associations are moderate, model-dependent, and explicitly "
+        "descriptive: the 15 seed-fold rows reuse the same wells and blocks, and only "
+        "five to six independent geographic blocks are held out, so we do not treat "
+        "nominal p-values as significance evidence. Fourth, temperature scaling improves "
+        "calibration error but does not restore shifted coverage, and rare-class "
+        "coverage collapses beneath moderate marginal figures."
+    )
+    para(
+        "Two deployment-oriented checks connect point scores to well interpretation. "
+        "A feature-source ablation shows that depth and position inputs raise "
+        "random-split macro-F1 from 0.670 to 0.712 and grouped-well macro-F1 from "
+        "0.357 to about 0.40, but give little consistent gain under spatial blocks "
+        "(0.247-0.271). Continuous-section metrics further show that point accuracy "
+        "near 0.70-0.75 coexists with boundary F1 of only 0.30-0.33, substantial "
+        "thickness error, and fragmented predicted sections."
+    )
+    para(
+        "We are careful to bound the claim: the split-conformal guarantee is conditional "
+        "on exchangeability and on the calibration unit. Because quantiles are calibrated "
+        "over correlated depth points, we report every grouped-well and spatial coverage "
+        "value as empirical coverage, not as a finite-sample guarantee for unseen wells or "
+        "regions. We distinguish coverage of a random depth point in a new well from the "
+        "probability that an entire new well reaches a target coverage fraction; the latter "
+        "would require well- or block-level hierarchical or group-weighted calibration and "
+        "is identified as future work. "
+        "Reduced coverage under a spatial split is not evidence that conformal prediction "
+        "detects or quantifies distribution shift. The contribution is therefore a "
+        "rigorously scaled, cluster-aware empirical evaluation protocol rather than a new "
+        "predictor, accompanied by an experiment-provenance ledger mapping every number to "
+        "its data scale, seed, split, and result file."
     )
     para(
         "We believe the manuscript fits the journal's scope because it is a rigorous, "
         "reproducible artificial-intelligence reliability study grounded in a concrete "
-        "geoscientific decision problem, with open code and data, publication-ready "
-        "vector figures, and explicit uncertainty quantification. It gives practitioners "
-        "a defensible way to flag depth intervals that require manual review rather than "
-        "reporting a single over-optimistic accuracy number."
+        "geoscientific decision problem, with public data, documented reproducible "
+        "code and result provenance, publication-ready vector figures, and explicit "
+        "uncertainty quantification. It gives practitioners "
+        "a defensible way to flag depth intervals that require manual review and to report "
+        "class-balanced performance, rather than relying on a single over-optimistic "
+        "accuracy number."
     )
     para(
-        "The authors declare no competing interests. A declaration of the use of an "
-        "AI-assisted writing tool, CRediT author contributions, and data and code "
-        "availability statements are included in the manuscript. We confirm that no "
-        "generative AI was used to create or alter any figure."
+        "The authors declare no competing interests. A writing-process generative-AI "
+        "declaration limited to language and formatting, a separate disclosure of "
+        "AI-assisted programming during the research process, CRediT author contributions, "
+        "and data and code availability statements are included in the manuscript. We "
+        "confirm that no generative AI was used to create or alter any figure."
     )
     document.add_paragraph("")
     para("Thank you for your consideration. We look forward to your response.")

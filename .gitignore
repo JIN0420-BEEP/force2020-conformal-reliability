@@ -16,3 +16,11 @@ __pycache__/
 # ---- OS and editor noise ----
 .DS_Store
 Thumbs.db
+
+# ---- Local scratch, run logs, and rendered preview pages ----
+results/_*/
+manuscript/_preview/
+*.log
+
+# ---- Internal reviewer-response notes (not for public release) ----
+manuscript/审稿意见回应与修改对照.md

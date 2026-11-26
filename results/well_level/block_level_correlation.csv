@@ -1,0 +1,7 @@
+﻿seed,aggregation,n_blocks,spearman_mmd_coverage,p_value_nominal,note
+20261021,cross_model_mean,5,0.0,1.0,one value per held-out spatial block; n=5 per seed; descriptive and low-powered; blocks reused across seeds; do not pool into n=15
+20261021,hist_gradient_boosting,5,-0.5,0.391,one value per held-out spatial block; n=5 per seed; descriptive and low-powered; blocks reused across seeds; do not pool into n=15
+20261022,cross_model_mean,5,-0.5,0.391,one value per held-out spatial block; n=5 per seed; descriptive and low-powered; blocks reused across seeds; do not pool into n=15
+20261022,hist_gradient_boosting,5,-0.7,0.1881,one value per held-out spatial block; n=5 per seed; descriptive and low-powered; blocks reused across seeds; do not pool into n=15
+20261023,cross_model_mean,5,-0.6,0.2848,one value per held-out spatial block; n=5 per seed; descriptive and low-powered; blocks reused across seeds; do not pool into n=15
+20261023,hist_gradient_boosting,5,-1.0,0.0,one value per held-out spatial block; n=5 per seed; descriptive and low-powered; blocks reused across seeds; do not pool into n=15

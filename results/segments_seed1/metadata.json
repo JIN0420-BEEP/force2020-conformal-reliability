@@ -1,0 +1,20 @@
+{
+  "models": [
+    "hist_gradient_boosting"
+  ],
+  "protocols": [
+    "well_grouped",
+    "spatial_block"
+  ],
+  "seeds": [
+    20261021
+  ],
+  "gap_threshold_m": 0.5,
+  "boundary_tolerance_m": 0.5,
+  "hgb_early_stopping": false,
+  "training_rows_per_fold_max": 95000,
+  "predicted_row_records": 2819138,
+  "n_unique_test_wells": 118,
+  "evaluated_folds_per_seed": 5,
+  "aggregation_note": "equal_well = unweighted mean over well-fold rows; pooled = point/depth-pair weighted; across-seed SD uses seed summaries."
+}

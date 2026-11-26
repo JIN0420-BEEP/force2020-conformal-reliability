@@ -1,0 +1,13 @@
+﻿scheme_label,model,coverage_mean,coverage_std,point_accuracy_mean,point_accuracy_std,mean_set_size_mean,macro_f1_mean,macro_f1_std
+blocks5_buffer20,extra_trees,0.8887,0.0432,0.6048,0.0395,3.1372,,
+blocks5_buffer20,hist_gradient_boosting,0.8647,0.0412,0.6856,0.0553,2.09,0.2646,0.0356
+blocks5_buffer20,knn,0.9198,0.0788,0.6043,0.0661,5.9562,,
+blocks5_buffer20,lightgbm,0.8675,0.0397,0.6497,0.058,2.2059,,
+blocks5_buffer20,logistic,0.8889,0.0548,0.385,0.114,4.8027,,
+blocks5_buffer20,random_forest,0.888,0.0384,0.6865,0.0504,2.5658,,
+blocks6_buffer30,extra_trees,0.9039,0.0203,0.6241,0.0396,3.2695,0.2358,0.0329
+blocks6_buffer30,hist_gradient_boosting,0.8741,0.0326,0.6812,0.0557,2.1565,0.2612,0.0444
+blocks6_buffer30,knn,0.9409,0.0687,0.6099,0.0561,6.4635,0.2255,0.0342
+blocks6_buffer30,lightgbm,0.8812,0.0291,0.6464,0.0642,2.3496,0.2814,0.0534
+blocks6_buffer30,logistic,0.8928,0.0584,0.3922,0.1318,4.9105,0.1857,0.0433
+blocks6_buffer30,random_forest,0.8976,0.022,0.6868,0.0528,2.6578,0.2866,0.0486

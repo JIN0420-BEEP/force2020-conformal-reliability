@@ -1,0 +1,827 @@
+﻿well_id,coverage,point_accuracy,mean_set_size,n_points,model,protocol,fold,feature_set,scheme,seed
+15_9-13,1.0,0.9,1.2,10,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+15_9-14,1.0,0.9,1.8,10,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+15_9-15,0.9166666666666666,0.8333333333333334,1.25,12,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+15_9-17,1.0,1.0,1.0,12,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+15_9-23,1.0,0.8823529411764706,1.4705882352941178,17,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+16_1-2,0.86,0.37,3.07,100,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+16_1-6 A,0.96,0.94,1.18,50,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+16_10-1,1.0,1.0,1.3846153846153846,13,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+16_10-2,0.9873417721518988,0.8481012658227848,1.6582278481012658,79,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+16_10-3,0.8181818181818182,0.7272727272727273,1.6363636363636365,11,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+16_10-5,1.0,0.9859154929577465,1.380281690140845,71,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+16_11-1 ST3,0.9375,0.9375,1.0625,16,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+16_2-11 A,1.0,0.95,1.35,20,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+16_2-16,0.9444444444444444,0.8333333333333334,1.5,18,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+16_2-6,1.0,0.8181818181818182,1.5909090909090908,22,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+16_2-7,1.0,0.9444444444444444,1.8333333333333333,18,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+16_4-1,1.0,1.0,1.4166666666666667,12,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+16_5-3,0.9861111111111112,0.9305555555555556,1.6944444444444444,72,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+16_7-4,1.0,1.0,1.619047619047619,21,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+16_7-5,1.0,0.8888888888888888,1.4444444444444444,9,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+16_7-6,1.0,0.9523809523809523,1.1904761904761905,21,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+16_8-1,0.9666666666666667,0.8666666666666667,1.8333333333333333,30,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+17_11-1,0.9,0.9,1.8,10,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+17_4-1,1.0,0.95,1.75,20,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+25_10-10,1.0,0.9375,1.625,16,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+25_10-9,0.9565217391304348,0.6086956521739131,2.5652173913043477,23,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+25_11-15,1.0,0.9866666666666667,1.0666666666666667,75,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+25_11-19 S,1.0,0.9642857142857143,1.0357142857142858,28,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+25_11-24,1.0,0.975,1.15,40,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+25_11-5,1.0,0.972972972972973,1.2162162162162162,37,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+25_2-13 T4,1.0,1.0,1.875,8,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+25_2-14,1.0,0.8571428571428571,2.0,7,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+25_2-7,0.9166666666666666,0.8333333333333334,1.5,12,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+25_3-1,0.875,0.875,1.5,8,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+25_4-5,1.0,0.8571428571428571,1.5714285714285714,7,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+25_5-1,1.0,0.7857142857142857,2.0714285714285716,14,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+25_5-3,1.0,0.8823529411764706,1.4705882352941178,17,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+25_5-4,1.0,1.0,2.0,13,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+25_6-1,1.0,0.8947368421052632,1.4210526315789473,38,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+25_6-2,0.8688524590163934,0.7540983606557377,1.8360655737704918,61,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+25_6-3,1.0,0.9444444444444444,1.2777777777777777,18,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+25_7-2,0.7142857142857143,0.42857142857142855,3.142857142857143,7,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+25_8-5 S,0.9230769230769231,0.6153846153846154,1.8461538461538463,13,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+25_8-7,1.0,1.0,1.04,25,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+25_9-1,0.9,0.9,1.1,10,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+26_4-1,1.0,1.0,1.0,6,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+29_3-1,1.0,1.0,1.5,6,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+29_6-1,1.0,1.0,2.2222222222222223,9,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+30_3-3,1.0,1.0,1.25,4,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+30_3-5 S,1.0,0.9056603773584906,1.509433962264151,53,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+30_6-5,1.0,0.8888888888888888,1.5555555555555556,9,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+31_2-1,0.9736842105263158,0.8421052631578947,1.763157894736842,38,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+31_2-10,1.0,0.9444444444444444,1.4444444444444444,18,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+31_2-19 S,0.9285714285714286,0.7857142857142857,1.2857142857142858,14,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+31_2-21 S,0.9642857142857143,0.75,1.5714285714285714,28,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+31_2-7,1.0,1.0,1.2608695652173914,23,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+31_2-8,1.0,1.0,1.6666666666666667,9,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+31_2-9,1.0,0.7619047619047619,1.8571428571428572,21,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+31_3-1,1.0,1.0,1.375,8,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+31_3-2,1.0,1.0,1.3181818181818181,22,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+31_3-3,0.9629629629629629,0.8148148148148148,1.7407407407407407,27,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+31_3-4,0.9444444444444444,0.8333333333333334,2.138888888888889,36,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+31_4-10,0.9583333333333334,0.9583333333333334,1.375,24,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+31_4-5,0.8636363636363636,0.7272727272727273,1.6363636363636365,22,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+31_5-4 S,1.0,0.8571428571428571,1.2857142857142858,14,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+31_6-5,0.9,0.75,1.8,20,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+31_6-8,1.0,0.8421052631578947,1.7894736842105263,19,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+32_2-1,0.9846153846153847,0.8615384615384616,1.523076923076923,65,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+33_5-2,0.9583333333333334,0.9583333333333334,1.4791666666666667,48,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+33_6-3 S,1.0,1.0,1.0666666666666667,15,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+33_9-1,1.0,0.8571428571428571,2.0714285714285716,14,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+33_9-17,1.0,1.0,1.75,8,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+34_10-16 R,1.0,1.0,1.3333333333333333,3,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+34_10-19,0.9166666666666666,0.8333333333333334,1.5,12,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+34_10-21,1.0,1.0,1.5555555555555556,9,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+34_10-33,0.96875,0.9375,1.46875,32,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+34_10-35,1.0,0.7142857142857143,2.0,7,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+34_11-1,0.9803921568627451,0.8627450980392157,1.4313725490196079,51,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+34_11-2 S,1.0,1.0,1.2307692307692308,13,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+34_12-1,0.9473684210526315,0.8947368421052632,2.1578947368421053,19,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+34_2-4,1.0,0.8,1.8,5,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+34_3-1 A,0.9888888888888889,0.7888888888888889,1.6444444444444444,90,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+34_3-2 S,1.0,0.9230769230769231,1.3846153846153846,13,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+34_3-3 A,1.0,0.9,1.4,10,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+34_4-10 R,0.8974358974358975,0.8205128205128205,1.794871794871795,39,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+34_5-1 A,0.9230769230769231,0.8461538461538461,1.3846153846153846,13,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+34_5-1 S,0.9468085106382979,0.8191489361702128,1.5,94,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+34_6-1 S,1.0,0.9655172413793104,1.5862068965517242,29,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+34_7-13,0.9615384615384616,0.7115384615384616,2.1923076923076925,52,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+34_7-20,1.0,0.9285714285714286,1.2857142857142858,14,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+34_7-21,1.0,0.8823529411764706,1.2941176470588236,17,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+34_8-1,1.0,0.8333333333333334,1.5,6,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+34_8-3,0.9333333333333333,0.8,2.066666666666667,15,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+34_8-7 R,1.0,0.6129032258064516,2.4516129032258065,31,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+35_11-1,0.9285714285714286,0.9285714285714286,1.4285714285714286,14,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+35_11-10,1.0,1.0,1.4523809523809523,42,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+35_11-11,1.0,0.875,1.625,16,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+35_11-12,0.9090909090909091,0.9090909090909091,1.2727272727272727,11,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+35_11-13,0.970873786407767,0.912621359223301,1.4563106796116505,103,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+35_11-15 S,0.8645833333333334,0.53125,1.7916666666666667,96,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+35_11-5,1.0,1.0,1.4,10,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+35_11-6,1.0,1.0,1.2,5,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+35_11-7,1.0,0.8823529411764706,1.8235294117647058,17,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+35_12-1,1.0,0.8125,2.25,16,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+35_3-7 S,0.9069767441860465,0.813953488372093,1.3255813953488371,43,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+35_4-1,1.0,0.8333333333333334,1.3333333333333333,6,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+35_6-2 S,0.875,0.75,1.8125,16,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+35_8-4,0.8735632183908046,0.8160919540229885,1.5172413793103448,87,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+35_8-6 S,1.0,0.75,2.0625,16,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+35_9-10 S,0.9736842105263158,0.868421052631579,1.8421052631578947,38,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+35_9-2,0.9473684210526315,0.8947368421052632,1.4736842105263157,19,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+35_9-5,0.8974358974358975,0.5897435897435898,2.358974358974359,39,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+35_9-6 S,1.0,1.0,1.5454545454545454,11,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+35_9-7,1.0,0.9375,1.3125,16,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+35_9-8,0.98,0.82,1.86,50,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+36_7-3,1.0,0.8596491228070176,1.7719298245614035,57,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+7_1-1,0.9473684210526315,0.8947368421052632,1.1578947368421053,19,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+7_1-2 S,0.9895833333333334,0.9583333333333334,1.21875,96,hist_gradient_boosting,random_point,0,logs_coords,blocks5_buffer20,20261022
+15_9-13,0.9411764705882353,0.9411764705882353,1.588235294117647,17,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+15_9-14,0.625,0.625,1.125,8,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+15_9-15,0.8461538461538461,0.6923076923076923,1.5384615384615385,13,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+15_9-17,1.0,0.8,1.7,10,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+15_9-23,1.0,0.9444444444444444,1.3333333333333333,18,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+16_1-2,0.990909090909091,0.9636363636363636,1.3363636363636364,110,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+16_1-6 A,0.9857142857142858,0.9857142857142858,1.1142857142857143,70,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+16_10-1,0.9230769230769231,0.8461538461538461,1.3076923076923077,13,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+16_10-2,0.9746835443037974,0.810126582278481,1.7088607594936709,79,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+16_10-3,0.8421052631578947,0.7368421052631579,2.0526315789473686,19,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+16_10-5,0.9710144927536232,0.855072463768116,1.5797101449275361,69,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+16_11-1 ST3,0.9583333333333334,0.9166666666666666,1.2916666666666667,24,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+16_2-11 A,1.0,0.875,1.4375,16,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+16_2-16,1.0,0.9230769230769231,1.5769230769230769,26,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+16_2-6,1.0,0.9166666666666666,1.3333333333333333,24,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+16_2-7,0.9411764705882353,0.9411764705882353,1.7647058823529411,17,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+16_4-1,1.0,0.9090909090909091,1.8181818181818181,11,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+16_5-3,0.9242424242424242,0.8333333333333334,1.621212121212121,66,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+16_7-4,0.9130434782608695,0.7391304347826086,2.739130434782609,23,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+16_7-5,1.0,0.75,1.625,8,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+16_7-6,1.0,0.8888888888888888,1.4444444444444444,18,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+16_8-1,0.9615384615384616,0.9230769230769231,1.4615384615384615,26,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+17_11-1,1.0,0.9230769230769231,2.0,13,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+17_4-1,1.0,0.8125,2.3125,16,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+25_10-10,0.9523809523809523,0.9047619047619048,2.6666666666666665,21,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+25_10-9,1.0,0.95,1.65,20,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+25_11-15,0.9880952380952381,0.9880952380952381,1.3571428571428572,84,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+25_11-19 S,0.96,0.88,1.2,25,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+25_11-24,0.9767441860465116,0.9302325581395349,1.302325581395349,43,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+25_11-5,0.8888888888888888,0.7777777777777778,2.2777777777777777,36,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+25_2-13 T4,1.0,0.8888888888888888,1.5555555555555556,9,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+25_2-14,1.0,1.0,1.8333333333333333,6,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+25_2-7,1.0,1.0,1.3333333333333333,9,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+25_3-1,1.0,0.8,1.6,5,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+25_4-5,1.0,1.0,2.2,5,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+25_5-1,0.8,0.6,2.1,10,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+25_5-3,0.9285714285714286,0.9285714285714286,1.1428571428571428,14,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+25_5-4,1.0,0.9411764705882353,1.8235294117647058,17,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+25_6-1,0.8709677419354839,0.5161290322580645,3.2580645161290325,31,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+25_6-2,1.0,0.9859154929577465,1.1830985915492958,71,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+25_6-3,1.0,0.8947368421052632,1.4736842105263157,19,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+25_7-2,0.8333333333333334,0.5,2.3333333333333335,6,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+25_8-5 S,1.0,1.0,1.411764705882353,17,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+25_8-7,1.0,1.0,1.0434782608695652,23,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+25_9-1,1.0,0.9090909090909091,1.1818181818181819,11,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+26_4-1,1.0,1.0,2.0,6,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+29_3-1,0.9230769230769231,0.6923076923076923,2.3846153846153846,13,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+29_6-1,0.875,0.625,1.875,8,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+30_3-3,1.0,0.8571428571428571,2.0,14,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+30_3-5 S,0.9736842105263158,0.7631578947368421,1.9210526315789473,38,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+30_6-5,0.9090909090909091,0.8181818181818182,1.8181818181818181,11,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+31_2-1,1.0,0.9354838709677419,1.8064516129032258,31,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+31_2-10,0.95,0.95,1.35,20,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+31_2-19 S,1.0,1.0,1.8333333333333333,12,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+31_2-21 S,1.0,0.8947368421052632,1.4210526315789473,19,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+31_2-7,0.95,0.8,1.5,20,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+31_2-8,1.0,0.9166666666666666,1.75,12,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+31_2-9,0.9444444444444444,0.8888888888888888,1.7222222222222223,18,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+31_3-1,1.0,0.7692307692307693,2.0,13,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+31_3-2,1.0,1.0,1.5,18,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+31_3-3,0.8333333333333334,0.5555555555555556,2.8333333333333335,18,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+31_3-4,1.0,0.8809523809523809,1.7142857142857142,42,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+31_4-10,1.0,1.0,1.2916666666666667,24,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+31_4-5,0.9090909090909091,0.6363636363636364,1.6363636363636365,11,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+31_5-4 S,1.0,1.0,1.4705882352941178,17,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+31_6-5,0.8823529411764706,0.5882352941176471,1.9411764705882353,17,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+31_6-8,0.8823529411764706,0.8823529411764706,1.2352941176470589,17,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+32_2-1,0.9655172413793104,0.896551724137931,1.6379310344827587,58,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+33_5-2,1.0,0.8723404255319149,1.6170212765957446,47,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+33_6-3 S,1.0,0.95,1.25,20,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+33_9-1,1.0,0.9,2.3,10,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+33_9-17,1.0,1.0,1.0,7,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+34_10-16 R,1.0,0.9166666666666666,1.5833333333333333,12,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+34_10-19,1.0,0.9444444444444444,2.111111111111111,18,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+34_10-21,1.0,0.8,1.8,5,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+34_10-33,0.9722222222222222,0.8333333333333334,1.7777777777777777,36,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+34_10-35,1.0,0.8333333333333334,1.5,6,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+34_11-1,1.0,0.9047619047619048,1.5,42,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+34_11-2 S,0.8571428571428571,0.5714285714285714,1.7142857142857142,7,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+34_12-1,0.8823529411764706,0.7058823529411765,1.9411764705882353,17,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+34_2-4,1.0,0.75,2.25,12,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+34_3-1 A,0.9506172839506173,0.8024691358024691,1.5802469135802468,81,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+34_3-2 S,1.0,0.9333333333333333,1.2,15,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+34_3-3 A,0.8333333333333334,0.8333333333333334,1.1666666666666667,6,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+34_4-10 R,0.9473684210526315,0.8421052631578947,1.736842105263158,57,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+34_5-1 A,1.0,0.8571428571428571,1.7142857142857142,14,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+34_5-1 S,0.9761904761904762,0.8809523809523809,1.5,84,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+34_6-1 S,1.0,0.9166666666666666,1.8611111111111112,36,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+34_7-13,1.0,0.7692307692307693,2.2884615384615383,52,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+34_7-20,1.0,0.7692307692307693,1.3846153846153846,13,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+34_7-21,1.0,0.8947368421052632,1.7894736842105263,19,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+34_8-1,1.0,0.7692307692307693,1.5384615384615385,13,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+34_8-3,0.8666666666666667,0.6666666666666666,1.6666666666666667,15,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+34_8-7 R,1.0,0.9545454545454546,1.5909090909090908,22,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+35_11-1,1.0,0.8,1.8,10,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+35_11-10,1.0,0.5625,1.96875,32,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+35_11-11,1.0,0.9523809523809523,1.2380952380952381,21,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+35_11-12,0.9166666666666666,0.9166666666666666,1.0,12,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+35_11-13,0.9875,0.9375,1.375,80,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+35_11-15 S,1.0,0.9393939393939394,1.5757575757575757,66,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+35_11-5,0.8461538461538461,0.46153846153846156,2.076923076923077,13,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+35_11-6,1.0,0.9090909090909091,1.8181818181818181,11,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+35_11-7,1.0,0.8421052631578947,2.1052631578947367,19,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+35_12-1,1.0,0.8125,1.6875,16,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+35_3-7 S,0.8421052631578947,0.5263157894736842,2.1842105263157894,38,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+35_4-1,1.0,0.8461538461538461,1.6923076923076923,13,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+35_6-2 S,0.9090909090909091,0.7272727272727273,2.090909090909091,11,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+35_8-4,0.9090909090909091,0.7662337662337663,1.4415584415584415,77,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+35_8-6 S,1.0,1.0,1.1875,16,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+35_9-10 S,1.0,0.9523809523809523,1.9523809523809523,42,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+35_9-2,0.8666666666666667,0.7333333333333333,2.2,15,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+35_9-5,0.7924528301886793,0.5283018867924528,2.2641509433962264,53,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+35_9-6 S,1.0,0.7333333333333333,2.0,15,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+35_9-7,1.0,0.9333333333333333,1.9333333333333333,15,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+35_9-8,1.0,0.6136363636363636,2.4318181818181817,44,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+36_7-3,0.9016393442622951,0.5409836065573771,2.3442622950819674,61,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+7_1-1,0.9285714285714286,0.7857142857142857,2.642857142857143,14,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+7_1-2 S,0.98,0.9,1.4,100,hist_gradient_boosting,random_point,1,logs_coords,blocks5_buffer20,20261022
+15_9-13,1.0,1.0,1.2222222222222223,18,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+15_9-14,0.625,0.5,1.625,8,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+15_9-15,0.8666666666666667,0.8,1.5333333333333334,15,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+15_9-17,1.0,1.0,1.2222222222222223,9,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+15_9-23,1.0,0.9444444444444444,1.5555555555555556,18,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+16_1-2,1.0,0.9925925925925926,1.385185185185185,135,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+16_1-6 A,1.0,0.9464285714285714,1.1071428571428572,56,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+16_10-1,1.0,1.0,1.3333333333333333,12,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+16_10-2,0.9814814814814815,0.7314814814814815,2.1944444444444446,108,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+16_10-3,0.8571428571428571,0.8571428571428571,1.7142857142857142,14,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+16_10-5,1.0,0.9024390243902439,1.6219512195121952,82,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+16_11-1 ST3,1.0,1.0,1.25,20,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+16_2-11 A,1.0,0.9,1.6,20,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+16_2-16,0.8421052631578947,0.7368421052631579,2.263157894736842,19,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+16_2-6,1.0,0.7894736842105263,2.4210526315789473,19,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+16_2-7,0.8571428571428571,0.7857142857142857,2.2142857142857144,14,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+16_4-1,0.9333333333333333,0.9333333333333333,1.4666666666666666,15,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+16_5-3,0.9411764705882353,0.8235294117647058,2.014705882352941,68,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+16_7-4,1.0,1.0,1.2,15,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+16_7-5,1.0,0.9375,1.4375,16,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+16_7-6,0.9,0.85,1.35,20,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+16_8-1,0.375,0.34375,1.84375,32,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+17_11-1,1.0,1.0,2.066666666666667,15,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+17_4-1,0.9473684210526315,0.8947368421052632,1.9473684210526316,19,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+25_10-10,0.9444444444444444,0.7777777777777778,2.611111111111111,18,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+25_10-9,1.0,1.0,2.0555555555555554,18,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+25_11-15,0.989010989010989,0.967032967032967,1.2967032967032968,91,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+25_11-19 S,1.0,0.9523809523809523,1.2857142857142858,21,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+25_11-24,0.9069767441860465,0.8604651162790697,1.302325581395349,43,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+25_11-5,1.0,0.9555555555555556,1.3555555555555556,45,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+25_2-13 T4,0.9090909090909091,0.9090909090909091,1.4545454545454546,11,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+25_2-14,0.9375,0.75,2.125,16,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+25_2-7,1.0,1.0,1.5,2,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+25_3-1,1.0,0.8,1.5,10,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+25_4-5,1.0,1.0,2.1666666666666665,6,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+25_5-1,1.0,0.5714285714285714,2.4285714285714284,7,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+25_5-3,1.0,0.9230769230769231,1.6153846153846154,26,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+25_5-4,1.0,0.9411764705882353,1.7058823529411764,17,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+25_6-1,0.72,0.32,3.6,25,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+25_6-2,0.9824561403508771,0.9824561403508771,1.2105263157894737,57,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+25_6-3,0.9047619047619048,0.7142857142857143,1.7142857142857142,21,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+25_7-2,1.0,1.0,2.0,12,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+25_8-5 S,0.9230769230769231,0.7692307692307693,1.4615384615384615,13,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+25_8-7,1.0,0.9565217391304348,1.391304347826087,23,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+25_9-1,0.6,0.5,1.5,10,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+26_4-1,1.0,1.0,1.3333333333333333,9,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+29_3-1,1.0,0.7142857142857143,2.857142857142857,7,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+29_6-1,1.0,1.0,1.6666666666666667,9,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+30_3-3,1.0,1.0,2.0,9,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+30_3-5 S,1.0,0.803921568627451,2.0,51,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+30_6-5,1.0,0.8571428571428571,1.8571428571428572,7,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+31_2-1,0.9565217391304348,0.8260869565217391,2.3043478260869565,23,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+31_2-10,1.0,0.875,1.875,16,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+31_2-19 S,1.0,0.875,1.25,8,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+31_2-21 S,1.0,0.8260869565217391,2.652173913043478,23,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+31_2-7,1.0,0.9047619047619048,1.619047619047619,21,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+31_2-8,1.0,0.8888888888888888,1.8888888888888888,9,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+31_2-9,1.0,0.9583333333333334,1.5,24,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+31_3-1,1.0,0.7241379310344828,1.9655172413793103,29,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+31_3-2,0.875,0.875,1.625,16,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+31_3-3,1.0,0.7058823529411765,2.176470588235294,17,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+31_3-4,1.0,0.9090909090909091,2.0454545454545454,44,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+31_4-10,1.0,1.0,1.6785714285714286,28,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+31_4-5,1.0,0.7333333333333333,2.0,15,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+31_5-4 S,1.0,0.9444444444444444,1.3888888888888888,18,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+31_6-5,1.0,0.9,1.5,20,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+31_6-8,0.9583333333333334,0.875,1.625,24,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+32_2-1,1.0,0.7727272727272727,2.378787878787879,66,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+33_5-2,0.9622641509433962,0.8490566037735849,1.7358490566037736,53,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+33_6-3 S,1.0,0.75,1.5625,16,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+33_9-1,1.0,0.7142857142857143,2.142857142857143,7,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+33_9-17,1.0,0.9,1.5,10,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+34_10-16 R,1.0,1.0,2.0,5,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+34_10-19,1.0,0.6666666666666666,2.5,12,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+34_10-21,1.0,1.0,1.6666666666666667,6,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+34_10-33,1.0,0.9142857142857143,1.457142857142857,35,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+34_10-35,0.8235294117647058,0.47058823529411764,2.588235294117647,17,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+34_11-1,1.0,0.8837209302325582,1.8604651162790697,43,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+34_11-2 S,1.0,0.8571428571428571,1.7142857142857142,7,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+34_12-1,1.0,0.8095238095238095,2.5238095238095237,21,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+34_2-4,1.0,0.9,2.4,10,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+34_3-1 A,0.9873417721518988,0.8607594936708861,1.7721518987341771,79,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+34_3-2 S,1.0,1.0,1.3571428571428572,14,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+34_3-3 A,1.0,1.0,1.625,16,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+34_4-10 R,0.9038461538461539,0.7307692307692307,1.7307692307692308,52,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+34_5-1 A,1.0,1.0,1.75,8,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+34_5-1 S,0.9879518072289156,0.963855421686747,1.4939759036144578,83,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+34_6-1 S,1.0,0.6285714285714286,2.1714285714285713,35,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+34_7-13,0.94,0.78,2.26,50,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+34_7-20,1.0,1.0,1.1666666666666667,12,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+34_7-21,1.0,0.7368421052631579,2.0526315789473686,19,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+34_8-1,1.0,0.8571428571428571,2.0,7,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+34_8-3,1.0,0.8181818181818182,2.6363636363636362,11,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+34_8-7 R,0.95,0.95,1.4,20,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+35_11-1,0.9411764705882353,0.7647058823529411,2.0,17,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+35_11-10,0.9714285714285714,0.7428571428571429,2.3714285714285714,35,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+35_11-11,1.0,0.9375,1.875,16,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+35_11-12,0.9090909090909091,0.7272727272727273,1.2727272727272727,11,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+35_11-13,1.0,0.975,1.825,80,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+35_11-15 S,0.963855421686747,0.8554216867469879,1.7349397590361446,83,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+35_11-5,0.8571428571428571,0.7857142857142857,1.5714285714285714,14,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+35_11-6,1.0,1.0,1.8571428571428572,7,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+35_11-7,0.9166666666666666,0.6666666666666666,2.25,12,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+35_12-1,0.9333333333333333,0.7333333333333333,1.7333333333333334,15,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+35_3-7 S,1.0,0.6666666666666666,3.466666666666667,45,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+35_4-1,1.0,1.0,1.625,8,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+35_6-2 S,1.0,0.7222222222222222,2.111111111111111,18,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+35_8-4,0.974025974025974,0.9090909090909091,1.5324675324675325,77,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+35_8-6 S,1.0,1.0,1.5,8,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+35_9-10 S,1.0,0.35294117647058826,3.4705882352941178,51,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+35_9-2,1.0,0.9285714285714286,1.9285714285714286,14,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+35_9-5,0.9803921568627451,0.8431372549019608,2.3137254901960786,51,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+35_9-6 S,1.0,0.8947368421052632,2.3157894736842106,19,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+35_9-7,0.9444444444444444,0.9444444444444444,1.6111111111111112,18,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+35_9-8,0.9636363636363636,0.7090909090909091,2.5636363636363635,55,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+36_7-3,0.9767441860465116,0.8837209302325582,1.7906976744186047,43,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+7_1-1,0.875,0.75,2.125,8,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+7_1-2 S,0.9894736842105263,0.9578947368421052,1.1473684210526316,95,hist_gradient_boosting,random_point,2,logs_coords,blocks5_buffer20,20261022
+15_9-13,1.0,1.0,1.625,8,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+15_9-14,1.0,0.9166666666666666,1.8333333333333333,12,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+15_9-15,1.0,0.9,1.3,10,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+15_9-17,1.0,0.8571428571428571,1.8571428571428572,7,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+15_9-23,0.9444444444444444,0.9444444444444444,1.1111111111111112,18,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+16_1-2,1.0,0.9743589743589743,1.358974358974359,117,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+16_1-6 A,0.9464285714285714,0.9464285714285714,1.0714285714285714,56,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+16_10-1,1.0,0.9090909090909091,1.1818181818181819,11,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+16_10-2,0.9583333333333334,0.7916666666666666,1.6666666666666667,72,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+16_10-3,1.0,0.9375,1.4375,16,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+16_10-5,1.0,0.9322033898305084,1.3559322033898304,59,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+16_11-1 ST3,0.9655172413793104,0.9655172413793104,1.2758620689655173,29,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+16_2-11 A,1.0,0.8888888888888888,1.5555555555555556,18,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+16_2-16,0.9230769230769231,0.9230769230769231,1.3076923076923077,13,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+16_2-6,0.96875,0.90625,1.46875,32,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+16_2-7,0.9047619047619048,0.9047619047619048,1.4761904761904763,21,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+16_4-1,1.0,1.0,1.5384615384615385,13,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+16_5-3,0.8333333333333334,0.7051282051282052,1.8333333333333333,78,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+16_7-4,1.0,0.9545454545454546,1.3636363636363635,22,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+16_7-5,1.0,0.9230769230769231,1.3846153846153846,13,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+16_7-6,1.0,1.0,1.12,25,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+16_8-1,1.0,0.95,1.5,20,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+17_11-1,0.9,0.6,2.5,10,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+17_4-1,1.0,0.9473684210526315,1.9473684210526316,19,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+25_10-10,0.875,0.8333333333333334,1.9166666666666667,24,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+25_10-9,0.9090909090909091,0.7272727272727273,2.5454545454545454,11,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+25_11-15,0.9894736842105263,0.9578947368421052,1.1894736842105262,95,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+25_11-19 S,1.0,1.0,1.0833333333333333,36,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+25_11-24,1.0,0.9333333333333333,1.1555555555555554,45,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+25_11-5,1.0,0.9565217391304348,1.326086956521739,46,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+25_2-13 T4,1.0,1.0,1.375,8,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+25_2-14,1.0,0.9,1.6,10,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+25_2-7,1.0,0.8333333333333334,1.5,6,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+25_3-1,1.0,0.9166666666666666,2.0,12,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+25_4-5,1.0,0.6666666666666666,2.1666666666666665,12,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+25_5-1,1.0,0.8571428571428571,1.7142857142857142,14,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+25_5-3,1.0,0.7333333333333333,2.466666666666667,15,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+25_5-4,1.0,1.0,1.1578947368421053,19,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+25_6-1,0.48936170212765956,0.3617021276595745,2.9361702127659575,47,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+25_6-2,1.0,0.9866666666666667,1.1466666666666667,75,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+25_6-3,1.0,0.9285714285714286,1.3571428571428572,14,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+25_7-2,1.0,0.6666666666666666,2.888888888888889,9,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+25_8-5 S,1.0,1.0,1.0833333333333333,12,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+25_8-7,1.0,1.0,1.1379310344827587,29,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+25_9-1,0.6666666666666666,0.5555555555555556,1.7222222222222223,18,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+26_4-1,1.0,1.0,1.2222222222222223,9,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+29_3-1,1.0,1.0,2.0,11,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+29_6-1,0.7142857142857143,0.5714285714285714,2.5714285714285716,7,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+30_3-3,0.9,0.8,1.6,10,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+30_3-5 S,0.9821428571428571,0.9464285714285714,1.6785714285714286,56,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+30_6-5,1.0,0.875,2.125,8,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+31_2-1,0.9666666666666667,0.8666666666666667,1.7666666666666666,30,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+31_2-10,1.0,0.9090909090909091,1.3181818181818181,22,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+31_2-19 S,1.0,0.9285714285714286,1.2142857142857142,14,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+31_2-21 S,0.9642857142857143,0.8928571428571429,1.8571428571428572,28,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+31_2-7,1.0,1.0,1.0714285714285714,28,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+31_2-8,1.0,0.9,1.7,10,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+31_2-9,0.9,0.8,1.25,20,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+31_3-1,1.0,0.8333333333333334,1.7777777777777777,18,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+31_3-2,1.0,0.9411764705882353,1.3529411764705883,17,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+31_3-3,0.9473684210526315,0.7368421052631579,2.8947368421052633,19,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+31_3-4,0.8571428571428571,0.6857142857142857,2.057142857142857,35,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+31_4-10,1.0,1.0,1.2,20,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+31_4-5,0.9411764705882353,0.8823529411764706,1.7058823529411764,17,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+31_5-4 S,1.0,1.0,1.2222222222222223,18,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+31_6-5,0.9523809523809523,0.8571428571428571,1.4285714285714286,21,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+31_6-8,0.9285714285714286,0.7857142857142857,1.7857142857142858,14,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+32_2-1,0.972972972972973,0.9054054054054054,1.3918918918918919,74,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+33_5-2,1.0,0.8947368421052632,1.5964912280701755,57,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+33_6-3 S,1.0,0.9285714285714286,1.1428571428571428,14,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+33_9-1,0.6666666666666666,0.5333333333333333,2.0,15,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+33_9-17,1.0,0.9230769230769231,1.1538461538461537,13,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+34_10-16 R,1.0,0.875,1.625,8,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+34_10-19,1.0,0.9,1.5,20,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+34_10-21,1.0,0.8,1.4,10,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+34_10-33,0.9696969696969697,0.8787878787878788,1.393939393939394,33,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+34_10-35,1.0,0.8571428571428571,1.5714285714285714,7,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+34_11-1,0.9310344827586207,0.6896551724137931,1.7758620689655173,58,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+34_11-2 S,1.0,0.9,1.7,10,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+34_12-1,0.9565217391304348,0.6956521739130435,2.0,23,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+34_2-4,1.0,0.8333333333333334,1.8333333333333333,6,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+34_3-1 A,0.9753086419753086,0.8641975308641975,1.617283950617284,81,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+34_3-2 S,1.0,1.0,1.2857142857142858,14,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+34_3-3 A,1.0,0.7142857142857143,1.8571428571428572,7,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+34_4-10 R,0.9555555555555556,0.9111111111111111,1.7333333333333334,45,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+34_5-1 A,1.0,0.9375,1.25,16,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+34_5-1 S,0.9607843137254902,0.9117647058823529,1.4803921568627452,102,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+34_6-1 S,0.9642857142857143,0.9285714285714286,1.6428571428571428,28,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+34_7-13,0.9787234042553191,0.9574468085106383,1.574468085106383,47,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+34_7-20,0.8888888888888888,0.7777777777777778,1.1111111111111112,9,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+34_7-21,1.0,0.9473684210526315,1.5789473684210527,19,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+34_8-1,1.0,0.8461538461538461,2.1538461538461537,13,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+34_8-3,1.0,0.8461538461538461,1.9230769230769231,13,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+34_8-7 R,0.95,0.9,1.25,20,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+35_11-1,1.0,0.7894736842105263,1.6842105263157894,19,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+35_11-10,0.9655172413793104,0.8620689655172413,1.3793103448275863,29,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+35_11-11,0.8235294117647058,0.8235294117647058,1.8823529411764706,17,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+35_11-12,0.8666666666666667,0.7333333333333333,1.2,15,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+35_11-13,0.9864864864864865,0.9324324324324325,1.3513513513513513,74,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+35_11-15 S,0.9859154929577465,0.971830985915493,1.4225352112676057,71,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+35_11-5,0.875,0.875,1.125,8,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+35_11-6,1.0,0.875,1.5,8,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+35_11-7,1.0,0.9230769230769231,2.076923076923077,13,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+35_12-1,0.9411764705882353,0.8235294117647058,1.411764705882353,17,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+35_3-7 S,0.9722222222222222,0.9444444444444444,1.3333333333333333,36,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+35_4-1,1.0,0.75,1.5,12,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+35_6-2 S,0.9,0.9,1.8,10,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+35_8-4,1.0,0.9558823529411765,1.3823529411764706,68,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+35_8-6 S,1.0,1.0,1.1818181818181819,11,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+35_9-10 S,1.0,0.8666666666666667,1.8666666666666667,45,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+35_9-2,0.7333333333333333,0.6666666666666666,1.8,15,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+35_9-5,0.972972972972973,0.918918918918919,2.135135135135135,37,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+35_9-6 S,0.9444444444444444,0.7777777777777778,2.0555555555555554,18,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+35_9-7,0.9333333333333333,0.8666666666666667,2.1333333333333333,15,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+35_9-8,1.0,0.7391304347826086,2.0869565217391304,46,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+36_7-3,1.0,0.8947368421052632,1.5614035087719298,57,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+7_1-1,1.0,0.8333333333333334,1.75,12,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+7_1-2 S,1.0,0.9333333333333333,1.3,90,hist_gradient_boosting,random_point,3,logs_coords,blocks5_buffer20,20261022
+15_9-13,1.0,0.8888888888888888,1.5555555555555556,9,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+15_9-14,0.5,0.5,1.3333333333333333,6,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+15_9-15,1.0,0.7142857142857143,1.5714285714285714,7,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+15_9-17,1.0,1.0,1.8333333333333333,12,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+15_9-23,1.0,1.0,1.2307692307692308,13,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+16_1-2,1.0,0.9727272727272728,1.3272727272727274,110,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+16_1-6 A,0.9803921568627451,0.9215686274509803,1.6470588235294117,51,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+16_10-1,1.0,0.8571428571428571,1.2857142857142858,7,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+16_10-2,1.0,0.881578947368421,1.8289473684210527,76,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+16_10-3,1.0,0.8888888888888888,1.4444444444444444,9,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+16_10-5,0.9714285714285714,0.9428571428571428,1.4857142857142858,70,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+16_11-1 ST3,1.0,0.95,1.15,20,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+16_2-11 A,1.0,0.9583333333333334,1.2916666666666667,24,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+16_2-16,1.0,0.8571428571428571,1.7142857142857142,21,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+16_2-6,1.0,0.9473684210526315,1.631578947368421,19,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+16_2-7,1.0,0.9411764705882353,1.9411764705882353,17,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+16_4-1,1.0,0.8571428571428571,1.7142857142857142,14,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+16_5-3,0.9857142857142858,0.8142857142857143,1.9428571428571428,70,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+16_7-4,1.0,1.0,1.05,20,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+16_7-5,1.0,0.8461538461538461,1.5384615384615385,13,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+16_7-6,0.6923076923076923,0.6153846153846154,1.3076923076923077,26,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+16_8-1,0.5333333333333333,0.4,1.6333333333333333,30,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+17_11-1,0.9375,0.875,1.9375,16,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+17_4-1,0.9259259259259259,0.3333333333333333,3.6666666666666665,27,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+25_10-10,0.8947368421052632,0.7368421052631579,1.8421052631578947,19,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+25_10-9,0.9545454545454546,0.8636363636363636,2.1363636363636362,22,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+25_11-15,1.0,0.9775280898876404,1.2359550561797752,89,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+25_11-19 S,1.0,0.9583333333333334,1.25,24,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+25_11-24,0.9791666666666666,0.9166666666666666,1.2291666666666667,48,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+25_11-5,1.0,1.0,1.25,40,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+25_2-13 T4,1.0,0.9,1.2,10,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+25_2-14,1.0,0.75,2.0,8,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+25_2-7,1.0,0.5714285714285714,2.0,7,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+25_3-1,1.0,1.0,1.25,8,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+25_4-5,1.0,0.6666666666666666,2.0,3,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+25_5-1,0.9285714285714286,0.8571428571428571,1.3571428571428572,14,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+25_5-3,1.0,0.9411764705882353,1.411764705882353,17,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+25_5-4,1.0,0.8421052631578947,1.5789473684210527,19,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+25_6-1,1.0,0.9666666666666667,1.7333333333333334,30,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+25_6-2,1.0,1.0,1.0684931506849316,73,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+25_6-3,0.9411764705882353,0.8823529411764706,1.411764705882353,17,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+25_7-2,1.0,0.6363636363636364,2.1818181818181817,11,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+25_8-5 S,1.0,1.0,1.2727272727272727,11,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+25_8-7,0.9,0.8333333333333334,1.5333333333333334,30,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+25_9-1,1.0,0.875,1.6875,16,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+26_4-1,0.8,0.8,1.6,5,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+29_3-1,1.0,0.9166666666666666,1.8333333333333333,12,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+29_6-1,1.0,0.8888888888888888,1.6666666666666667,9,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+30_3-3,1.0,1.0,2.2,5,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+30_3-5 S,0.9523809523809523,0.8333333333333334,1.6428571428571428,42,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+30_6-5,1.0,1.0,1.3333333333333333,3,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+31_2-1,1.0,0.9,1.9333333333333333,30,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+31_2-10,0.96875,0.9375,1.25,32,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+31_2-19 S,0.9333333333333333,0.8666666666666667,1.2,15,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+31_2-21 S,1.0,0.84,1.8,25,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+31_2-7,1.0,0.9583333333333334,1.3333333333333333,24,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+31_2-8,0.9,0.5,2.4,10,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+31_2-9,1.0,0.9411764705882353,1.2941176470588236,17,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+31_3-1,0.95,0.95,1.4,20,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+31_3-2,1.0,0.8518518518518519,1.7037037037037037,27,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+31_3-3,0.95,0.55,3.35,20,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+31_3-4,1.0,0.8421052631578947,1.9210526315789473,38,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+31_4-10,0.9642857142857143,0.9642857142857143,1.2142857142857142,28,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+31_4-5,0.9411764705882353,0.6470588235294118,1.9411764705882353,17,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+31_5-4 S,1.0,1.0,1.2173913043478262,23,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+31_6-5,0.9230769230769231,0.8461538461538461,1.4615384615384615,13,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+31_6-8,1.0,1.0,1.3478260869565217,23,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+32_2-1,1.0,0.8970588235294118,1.4558823529411764,68,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+33_5-2,1.0,0.88,1.78,50,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+33_6-3 S,0.9375,0.875,2.8125,16,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+33_9-1,1.0,0.75,2.0833333333333335,12,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+33_9-17,1.0,1.0,1.2222222222222223,9,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+34_10-16 R,1.0,0.7142857142857143,1.8571428571428572,7,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+34_10-19,0.9230769230769231,0.7692307692307693,1.9230769230769231,13,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+34_10-21,1.0,0.8571428571428571,2.0,7,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+34_10-33,0.9696969696969697,0.8181818181818182,1.5757575757575757,33,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+34_10-35,0.6153846153846154,0.23076923076923078,2.076923076923077,13,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+34_11-1,0.9607843137254902,0.8235294117647058,1.588235294117647,51,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+34_11-2 S,0.9333333333333333,0.8666666666666667,1.4666666666666666,15,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+34_12-1,0.95,0.85,2.15,20,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+34_2-4,1.0,0.8571428571428571,1.7142857142857142,7,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+34_3-1 A,0.9883720930232558,0.813953488372093,1.6511627906976745,86,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+34_3-2 S,0.75,0.6666666666666666,1.9166666666666667,12,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+34_3-3 A,0.8,0.8,2.2,5,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+34_4-10 R,1.0,0.9090909090909091,1.7636363636363637,55,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+34_5-1 A,1.0,1.0,1.4615384615384615,13,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+34_5-1 S,0.9759036144578314,0.8433734939759037,1.7228915662650603,83,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+34_6-1 S,0.9545454545454546,0.7727272727272727,2.0454545454545454,22,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+34_7-13,1.0,0.6792452830188679,2.0943396226415096,53,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+34_7-20,0.9473684210526315,0.8947368421052632,1.263157894736842,19,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+34_7-21,0.9473684210526315,0.8947368421052632,1.4210526315789473,19,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+34_8-1,1.0,0.9166666666666666,1.6666666666666667,12,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+34_8-3,0.9523809523809523,0.9523809523809523,1.8571428571428572,21,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+34_8-7 R,1.0,0.9210526315789473,1.6578947368421053,38,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+35_11-1,1.0,0.6666666666666666,2.0,12,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+35_11-10,0.9705882352941176,0.8529411764705882,1.4705882352941178,34,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+35_11-11,1.0,0.9411764705882353,1.4705882352941178,17,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+35_11-12,1.0,0.9,1.45,20,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+35_11-13,0.8809523809523809,0.5476190476190477,1.8928571428571428,84,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+35_11-15 S,1.0,0.9565217391304348,1.536231884057971,69,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+35_11-5,0.9230769230769231,0.6923076923076923,1.6153846153846154,13,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+35_11-6,1.0,0.8333333333333334,1.3333333333333333,6,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+35_11-7,1.0,0.8823529411764706,1.7058823529411764,17,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+35_12-1,1.0,1.0,1.2857142857142858,14,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+35_3-7 S,1.0,0.9024390243902439,1.6341463414634145,41,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+35_4-1,0.8666666666666667,0.7333333333333333,1.5333333333333334,15,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+35_6-2 S,0.9090909090909091,0.9090909090909091,1.6363636363636365,11,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+35_8-4,0.9620253164556962,0.8481012658227848,1.4177215189873418,79,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+35_8-6 S,1.0,0.9090909090909091,1.1818181818181819,11,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+35_9-10 S,0.9591836734693877,0.5714285714285714,2.979591836734694,49,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+35_9-2,0.8125,0.5625,1.8125,16,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+35_9-5,1.0,0.9230769230769231,1.8717948717948718,39,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+35_9-6 S,0.9615384615384616,0.8076923076923077,1.9230769230769231,26,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+35_9-7,1.0,0.8947368421052632,1.631578947368421,19,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+35_9-8,0.9545454545454546,0.6590909090909091,2.590909090909091,44,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+36_7-3,1.0,0.8928571428571429,1.7321428571428572,56,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+7_1-1,1.0,1.0,1.2307692307692308,13,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+7_1-2 S,1.0,0.9574468085106383,1.1063829787234043,94,hist_gradient_boosting,random_point,4,logs_coords,blocks5_buffer20,20261022
+16_2-16,0.936,0.801,1.811,1000,hist_gradient_boosting,well_grouped,0,logs_coords,blocks5_buffer20,20261022
+16_2-6,0.939,0.838,1.689,1000,hist_gradient_boosting,well_grouped,0,logs_coords,blocks5_buffer20,20261022
+16_7-4,0.885,0.705,2.565,1000,hist_gradient_boosting,well_grouped,0,logs_coords,blocks5_buffer20,20261022
+16_7-6,0.813,0.709,1.625,1000,hist_gradient_boosting,well_grouped,0,logs_coords,blocks5_buffer20,20261022
+17_4-1,0.868,0.34,3.537,1000,hist_gradient_boosting,well_grouped,0,logs_coords,blocks5_buffer20,20261022
+25_4-5,0.886,0.622,2.268,1000,hist_gradient_boosting,well_grouped,0,logs_coords,blocks5_buffer20,20261022
+25_8-7,0.942,0.885,1.566,1000,hist_gradient_boosting,well_grouped,0,logs_coords,blocks5_buffer20,20261022
+26_4-1,0.965,0.834,2.079,1000,hist_gradient_boosting,well_grouped,0,logs_coords,blocks5_buffer20,20261022
+31_2-1,0.895,0.635,2.468,1000,hist_gradient_boosting,well_grouped,0,logs_coords,blocks5_buffer20,20261022
+31_2-9,0.913,0.785,1.703,1000,hist_gradient_boosting,well_grouped,0,logs_coords,blocks5_buffer20,20261022
+31_3-4,0.866,0.711,2.087,1000,hist_gradient_boosting,well_grouped,0,logs_coords,blocks5_buffer20,20261022
+31_4-5,0.92,0.753,2.091,1000,hist_gradient_boosting,well_grouped,0,logs_coords,blocks5_buffer20,20261022
+31_5-4 S,0.867,0.584,2.497,1000,hist_gradient_boosting,well_grouped,0,logs_coords,blocks5_buffer20,20261022
+33_6-3 S,0.988,0.946,2.409,1000,hist_gradient_boosting,well_grouped,0,logs_coords,blocks5_buffer20,20261022
+34_10-16 R,0.973,0.858,2.021,1000,hist_gradient_boosting,well_grouped,0,logs_coords,blocks5_buffer20,20261022
+34_12-1,0.842,0.505,2.367,1000,hist_gradient_boosting,well_grouped,0,logs_coords,blocks5_buffer20,20261022
+34_7-13,0.979,0.71,2.205,1000,hist_gradient_boosting,well_grouped,0,logs_coords,blocks5_buffer20,20261022
+35_11-10,0.927,0.819,1.945,1000,hist_gradient_boosting,well_grouped,0,logs_coords,blocks5_buffer20,20261022
+35_11-12,0.896,0.81,1.201,1000,hist_gradient_boosting,well_grouped,0,logs_coords,blocks5_buffer20,20261022
+35_11-13,0.936,0.575,1.92,1000,hist_gradient_boosting,well_grouped,0,logs_coords,blocks5_buffer20,20261022
+35_11-15 S,0.959,0.728,2.283,1000,hist_gradient_boosting,well_grouped,0,logs_coords,blocks5_buffer20,20261022
+35_3-7 S,0.926,0.633,2.471,1000,hist_gradient_boosting,well_grouped,0,logs_coords,blocks5_buffer20,20261022
+35_9-5,0.81,0.563,2.205,1000,hist_gradient_boosting,well_grouped,0,logs_coords,blocks5_buffer20,20261022
+35_9-7,0.968,0.864,2.852,1000,hist_gradient_boosting,well_grouped,0,logs_coords,blocks5_buffer20,20261022
+15_9-13,0.964,0.86,1.741,1000,hist_gradient_boosting,well_grouped,1,logs_coords,blocks5_buffer20,20261022
+15_9-17,0.948,0.858,1.832,1000,hist_gradient_boosting,well_grouped,1,logs_coords,blocks5_buffer20,20261022
+16_10-2,0.851,0.559,2.15,1000,hist_gradient_boosting,well_grouped,1,logs_coords,blocks5_buffer20,20261022
+16_10-5,0.908,0.715,2.045,1000,hist_gradient_boosting,well_grouped,1,logs_coords,blocks5_buffer20,20261022
+16_11-1 ST3,0.674,0.589,1.883,1000,hist_gradient_boosting,well_grouped,1,logs_coords,blocks5_buffer20,20261022
+16_2-7,0.886,0.765,1.825,1000,hist_gradient_boosting,well_grouped,1,logs_coords,blocks5_buffer20,20261022
+25_11-24,0.858,0.712,1.26,1000,hist_gradient_boosting,well_grouped,1,logs_coords,blocks5_buffer20,20261022
+25_11-5,0.933,0.844,2.081,1000,hist_gradient_boosting,well_grouped,1,logs_coords,blocks5_buffer20,20261022
+25_2-14,0.954,0.808,1.736,1000,hist_gradient_boosting,well_grouped,1,logs_coords,blocks5_buffer20,20261022
+25_6-3,0.891,0.82,1.467,1000,hist_gradient_boosting,well_grouped,1,logs_coords,blocks5_buffer20,20261022
+25_9-1,0.867,0.597,1.889,1000,hist_gradient_boosting,well_grouped,1,logs_coords,blocks5_buffer20,20261022
+30_3-5 S,0.928,0.693,1.743,1000,hist_gradient_boosting,well_grouped,1,logs_coords,blocks5_buffer20,20261022
+31_2-19 S,0.886,0.822,1.368,1000,hist_gradient_boosting,well_grouped,1,logs_coords,blocks5_buffer20,20261022
+31_2-7,0.961,0.852,1.51,1000,hist_gradient_boosting,well_grouped,1,logs_coords,blocks5_buffer20,20261022
+31_2-8,0.94,0.696,1.816,1000,hist_gradient_boosting,well_grouped,1,logs_coords,blocks5_buffer20,20261022
+32_2-1,0.946,0.738,1.82,1000,hist_gradient_boosting,well_grouped,1,logs_coords,blocks5_buffer20,20261022
+34_10-19,0.924,0.762,2.066,1000,hist_gradient_boosting,well_grouped,1,logs_coords,blocks5_buffer20,20261022
+34_2-4,0.785,0.166,2.345,1000,hist_gradient_boosting,well_grouped,1,logs_coords,blocks5_buffer20,20261022
+34_3-3 A,0.975,0.94,1.401,1000,hist_gradient_boosting,well_grouped,1,logs_coords,blocks5_buffer20,20261022
+34_7-21,0.902,0.782,1.317,1000,hist_gradient_boosting,well_grouped,1,logs_coords,blocks5_buffer20,20261022
+35_11-11,0.909,0.78,1.546,1000,hist_gradient_boosting,well_grouped,1,logs_coords,blocks5_buffer20,20261022
+35_12-1,0.832,0.621,2.111,1000,hist_gradient_boosting,well_grouped,1,logs_coords,blocks5_buffer20,20261022
+35_8-4,0.928,0.804,1.432,1000,hist_gradient_boosting,well_grouped,1,logs_coords,blocks5_buffer20,20261022
+15_9-15,0.884,0.807,1.431,1000,hist_gradient_boosting,well_grouped,2,logs_coords,blocks5_buffer20,20261022
+15_9-23,0.949,0.82,1.566,1000,hist_gradient_boosting,well_grouped,2,logs_coords,blocks5_buffer20,20261022
+16_1-2,0.736,0.452,2.061,1000,hist_gradient_boosting,well_grouped,2,logs_coords,blocks5_buffer20,20261022
+16_1-6 A,0.981,0.951,1.628,1000,hist_gradient_boosting,well_grouped,2,logs_coords,blocks5_buffer20,20261022
+16_10-3,0.819,0.748,1.442,1000,hist_gradient_boosting,well_grouped,2,logs_coords,blocks5_buffer20,20261022
+16_7-5,0.953,0.891,1.4,1000,hist_gradient_boosting,well_grouped,2,logs_coords,blocks5_buffer20,20261022
+25_10-10,0.94,0.821,2.31,1000,hist_gradient_boosting,well_grouped,2,logs_coords,blocks5_buffer20,20261022
+25_5-3,0.975,0.83,2.825,1000,hist_gradient_boosting,well_grouped,2,logs_coords,blocks5_buffer20,20261022
+25_6-2,0.88,0.8,1.807,1000,hist_gradient_boosting,well_grouped,2,logs_coords,blocks5_buffer20,20261022
+25_7-2,0.944,0.673,2.688,1000,hist_gradient_boosting,well_grouped,2,logs_coords,blocks5_buffer20,20261022
+29_3-1,0.937,0.758,2.515,1000,hist_gradient_boosting,well_grouped,2,logs_coords,blocks5_buffer20,20261022
+31_3-3,0.881,0.419,3.392,1000,hist_gradient_boosting,well_grouped,2,logs_coords,blocks5_buffer20,20261022
+31_6-5,0.831,0.659,1.87,1000,hist_gradient_boosting,well_grouped,2,logs_coords,blocks5_buffer20,20261022
+34_10-33,0.982,0.871,1.964,1000,hist_gradient_boosting,well_grouped,2,logs_coords,blocks5_buffer20,20261022
+34_3-1 A,0.952,0.748,1.715,1000,hist_gradient_boosting,well_grouped,2,logs_coords,blocks5_buffer20,20261022
+34_3-2 S,0.956,0.766,1.873,1000,hist_gradient_boosting,well_grouped,2,logs_coords,blocks5_buffer20,20261022
+34_6-1 S,0.98,0.712,2.422,1000,hist_gradient_boosting,well_grouped,2,logs_coords,blocks5_buffer20,20261022
+34_7-20,0.913,0.806,1.323,1000,hist_gradient_boosting,well_grouped,2,logs_coords,blocks5_buffer20,20261022
+34_8-3,0.853,0.739,1.694,1000,hist_gradient_boosting,well_grouped,2,logs_coords,blocks5_buffer20,20261022
+35_11-6,0.969,0.845,2.107,1000,hist_gradient_boosting,well_grouped,2,logs_coords,blocks5_buffer20,20261022
+35_9-10 S,0.954,0.227,3.216,1000,hist_gradient_boosting,well_grouped,2,logs_coords,blocks5_buffer20,20261022
+35_9-8,0.96,0.688,2.567,1000,hist_gradient_boosting,well_grouped,2,logs_coords,blocks5_buffer20,20261022
+7_1-2 S,0.987,0.929,1.474,1000,hist_gradient_boosting,well_grouped,2,logs_coords,blocks5_buffer20,20261022
+15_9-14,0.689,0.556,1.719,1000,hist_gradient_boosting,well_grouped,3,logs_coords,blocks5_buffer20,20261022
+16_10-1,0.901,0.823,1.417,1000,hist_gradient_boosting,well_grouped,3,logs_coords,blocks5_buffer20,20261022
+16_4-1,0.859,0.642,2.063,1000,hist_gradient_boosting,well_grouped,3,logs_coords,blocks5_buffer20,20261022
+16_5-3,0.781,0.641,1.869,1000,hist_gradient_boosting,well_grouped,3,logs_coords,blocks5_buffer20,20261022
+16_8-1,0.612,0.502,1.54,1000,hist_gradient_boosting,well_grouped,3,logs_coords,blocks5_buffer20,20261022
+25_10-9,0.905,0.715,2.504,1000,hist_gradient_boosting,well_grouped,3,logs_coords,blocks5_buffer20,20261022
+25_2-13 T4,0.956,0.837,1.86,1000,hist_gradient_boosting,well_grouped,3,logs_coords,blocks5_buffer20,20261022
+25_2-7,0.917,0.766,1.965,1000,hist_gradient_boosting,well_grouped,3,logs_coords,blocks5_buffer20,20261022
+29_6-1,0.97,0.845,2.393,1000,hist_gradient_boosting,well_grouped,3,logs_coords,blocks5_buffer20,20261022
+30_3-3,0.953,0.792,2.237,1000,hist_gradient_boosting,well_grouped,3,logs_coords,blocks5_buffer20,20261022
+31_2-10,0.958,0.903,1.367,1000,hist_gradient_boosting,well_grouped,3,logs_coords,blocks5_buffer20,20261022
+31_3-2,0.917,0.833,1.644,1000,hist_gradient_boosting,well_grouped,3,logs_coords,blocks5_buffer20,20261022
+31_4-10,0.778,0.734,1.544,1000,hist_gradient_boosting,well_grouped,3,logs_coords,blocks5_buffer20,20261022
+33_5-2,0.877,0.776,1.403,1000,hist_gradient_boosting,well_grouped,3,logs_coords,blocks5_buffer20,20261022
+33_9-1,0.82,0.637,1.843,1000,hist_gradient_boosting,well_grouped,3,logs_coords,blocks5_buffer20,20261022
+33_9-17,0.933,0.748,1.677,1000,hist_gradient_boosting,well_grouped,3,logs_coords,blocks5_buffer20,20261022
+34_10-21,0.961,0.758,2.433,1000,hist_gradient_boosting,well_grouped,3,logs_coords,blocks5_buffer20,20261022
+34_10-35,0.611,0.343,2.475,1000,hist_gradient_boosting,well_grouped,3,logs_coords,blocks5_buffer20,20261022
+34_11-1,0.962,0.764,1.677,1000,hist_gradient_boosting,well_grouped,3,logs_coords,blocks5_buffer20,20261022
+34_5-1 A,0.944,0.897,1.503,1000,hist_gradient_boosting,well_grouped,3,logs_coords,blocks5_buffer20,20261022
+35_11-5,0.86,0.699,1.638,1000,hist_gradient_boosting,well_grouped,3,logs_coords,blocks5_buffer20,20261022
+35_6-2 S,0.933,0.662,3.189,1000,hist_gradient_boosting,well_grouped,3,logs_coords,blocks5_buffer20,20261022
+35_9-6 S,0.947,0.711,2.158,1000,hist_gradient_boosting,well_grouped,3,logs_coords,blocks5_buffer20,20261022
+16_2-11 A,0.95,0.865,1.616,1000,hist_gradient_boosting,well_grouped,4,logs_coords,blocks5_buffer20,20261022
+17_11-1,0.8,0.536,2.456,1000,hist_gradient_boosting,well_grouped,4,logs_coords,blocks5_buffer20,20261022
+25_11-15,0.849,0.766,2.636,1000,hist_gradient_boosting,well_grouped,4,logs_coords,blocks5_buffer20,20261022
+25_11-19 S,0.924,0.892,1.469,1000,hist_gradient_boosting,well_grouped,4,logs_coords,blocks5_buffer20,20261022
+25_3-1,0.956,0.811,2.294,1000,hist_gradient_boosting,well_grouped,4,logs_coords,blocks5_buffer20,20261022
+25_5-1,0.936,0.621,2.35,1000,hist_gradient_boosting,well_grouped,4,logs_coords,blocks5_buffer20,20261022
+25_5-4,0.963,0.856,2.401,1000,hist_gradient_boosting,well_grouped,4,logs_coords,blocks5_buffer20,20261022
+25_6-1,0.727,0.469,3.435,1000,hist_gradient_boosting,well_grouped,4,logs_coords,blocks5_buffer20,20261022
+25_8-5 S,0.93,0.77,1.933,1000,hist_gradient_boosting,well_grouped,4,logs_coords,blocks5_buffer20,20261022
+30_6-5,0.921,0.8,2.078,1000,hist_gradient_boosting,well_grouped,4,logs_coords,blocks5_buffer20,20261022
+31_2-21 S,0.991,0.809,2.368,1000,hist_gradient_boosting,well_grouped,4,logs_coords,blocks5_buffer20,20261022
+31_3-1,0.927,0.728,2.121,1000,hist_gradient_boosting,well_grouped,4,logs_coords,blocks5_buffer20,20261022
+31_6-8,0.93,0.727,1.882,1000,hist_gradient_boosting,well_grouped,4,logs_coords,blocks5_buffer20,20261022
+34_11-2 S,0.928,0.825,1.797,1000,hist_gradient_boosting,well_grouped,4,logs_coords,blocks5_buffer20,20261022
+34_4-10 R,0.886,0.784,1.791,1000,hist_gradient_boosting,well_grouped,4,logs_coords,blocks5_buffer20,20261022
+34_5-1 S,0.965,0.776,1.786,1000,hist_gradient_boosting,well_grouped,4,logs_coords,blocks5_buffer20,20261022
+34_8-1,0.969,0.818,2.078,1000,hist_gradient_boosting,well_grouped,4,logs_coords,blocks5_buffer20,20261022
+34_8-7 R,0.976,0.718,2.647,1000,hist_gradient_boosting,well_grouped,4,logs_coords,blocks5_buffer20,20261022
+35_11-1,0.958,0.717,2.044,1000,hist_gradient_boosting,well_grouped,4,logs_coords,blocks5_buffer20,20261022
+35_11-7,0.924,0.759,2.3,1000,hist_gradient_boosting,well_grouped,4,logs_coords,blocks5_buffer20,20261022
+35_4-1,0.971,0.787,2.081,1000,hist_gradient_boosting,well_grouped,4,logs_coords,blocks5_buffer20,20261022
+35_8-6 S,0.99,0.912,2.814,1000,hist_gradient_boosting,well_grouped,4,logs_coords,blocks5_buffer20,20261022
+35_9-2,0.863,0.748,2.034,1000,hist_gradient_boosting,well_grouped,4,logs_coords,blocks5_buffer20,20261022
+36_7-3,0.895,0.477,2.499,1000,hist_gradient_boosting,well_grouped,4,logs_coords,blocks5_buffer20,20261022
+7_1-1,0.959,0.594,3.206,1000,hist_gradient_boosting,well_grouped,4,logs_coords,blocks5_buffer20,20261022
+16_1-2,0.896,0.394,3.019,1000,hist_gradient_boosting,spatial_block,0,logs_coords,blocks5_buffer20,20261022
+16_1-6 A,0.985,0.854,3.017,1000,hist_gradient_boosting,spatial_block,0,logs_coords,blocks5_buffer20,20261022
+25_10-10,0.954,0.76,3.378,1000,hist_gradient_boosting,spatial_block,0,logs_coords,blocks5_buffer20,20261022
+25_10-9,0.929,0.741,3.25,1000,hist_gradient_boosting,spatial_block,0,logs_coords,blocks5_buffer20,20261022
+25_11-15,0.828,0.705,2.451,1000,hist_gradient_boosting,spatial_block,0,logs_coords,blocks5_buffer20,20261022
+25_11-19 S,0.928,0.712,2.861,1000,hist_gradient_boosting,spatial_block,0,logs_coords,blocks5_buffer20,20261022
+25_11-24,0.829,0.704,1.502,1000,hist_gradient_boosting,spatial_block,0,logs_coords,blocks5_buffer20,20261022
+25_11-5,0.956,0.755,2.916,1000,hist_gradient_boosting,spatial_block,0,logs_coords,blocks5_buffer20,20261022
+25_2-13 T4,0.95,0.826,2.719,1000,hist_gradient_boosting,spatial_block,0,logs_coords,blocks5_buffer20,20261022
+25_2-14,0.966,0.808,3.106,1000,hist_gradient_boosting,spatial_block,0,logs_coords,blocks5_buffer20,20261022
+25_2-7,0.9,0.739,2.449,1000,hist_gradient_boosting,spatial_block,0,logs_coords,blocks5_buffer20,20261022
+25_3-1,0.962,0.767,2.853,1000,hist_gradient_boosting,spatial_block,0,logs_coords,blocks5_buffer20,20261022
+25_4-5,0.753,0.613,2.354,1000,hist_gradient_boosting,spatial_block,0,logs_coords,blocks5_buffer20,20261022
+25_5-1,0.908,0.494,2.592,1000,hist_gradient_boosting,spatial_block,0,logs_coords,blocks5_buffer20,20261022
+25_5-3,0.963,0.803,3.363,1000,hist_gradient_boosting,spatial_block,0,logs_coords,blocks5_buffer20,20261022
+25_5-4,0.954,0.818,3.086,1000,hist_gradient_boosting,spatial_block,0,logs_coords,blocks5_buffer20,20261022
+25_6-1,0.93,0.492,3.676,1000,hist_gradient_boosting,spatial_block,0,logs_coords,blocks5_buffer20,20261022
+25_6-2,0.912,0.779,1.98,1000,hist_gradient_boosting,spatial_block,0,logs_coords,blocks5_buffer20,20261022
+25_6-3,0.955,0.84,2.011,1000,hist_gradient_boosting,spatial_block,0,logs_coords,blocks5_buffer20,20261022
+25_7-2,0.919,0.661,3.05,1000,hist_gradient_boosting,spatial_block,0,logs_coords,blocks5_buffer20,20261022
+25_8-5 S,0.914,0.69,1.94,1000,hist_gradient_boosting,spatial_block,0,logs_coords,blocks5_buffer20,20261022
+25_8-7,0.956,0.86,2.13,1000,hist_gradient_boosting,spatial_block,0,logs_coords,blocks5_buffer20,20261022
+25_9-1,0.922,0.567,2.635,1000,hist_gradient_boosting,spatial_block,0,logs_coords,blocks5_buffer20,20261022
+26_4-1,0.966,0.876,2.607,1000,hist_gradient_boosting,spatial_block,0,logs_coords,blocks5_buffer20,20261022
+29_6-1,0.972,0.819,2.249,1000,hist_gradient_boosting,spatial_block,1,logs_coords,blocks5_buffer20,20261022
+30_3-3,0.933,0.794,2.112,1000,hist_gradient_boosting,spatial_block,1,logs_coords,blocks5_buffer20,20261022
+30_3-5 S,0.89,0.658,2.154,1000,hist_gradient_boosting,spatial_block,1,logs_coords,blocks5_buffer20,20261022
+30_6-5,0.91,0.789,1.868,1000,hist_gradient_boosting,spatial_block,1,logs_coords,blocks5_buffer20,20261022
+31_2-1,0.84,0.51,2.518,1000,hist_gradient_boosting,spatial_block,1,logs_coords,blocks5_buffer20,20261022
+31_2-10,0.911,0.768,2.054,1000,hist_gradient_boosting,spatial_block,1,logs_coords,blocks5_buffer20,20261022
+31_2-19 S,0.896,0.803,1.449,1000,hist_gradient_boosting,spatial_block,1,logs_coords,blocks5_buffer20,20261022
+31_2-21 S,0.967,0.725,2.186,1000,hist_gradient_boosting,spatial_block,1,logs_coords,blocks5_buffer20,20261022
+31_2-7,0.935,0.726,1.938,1000,hist_gradient_boosting,spatial_block,1,logs_coords,blocks5_buffer20,20261022
+31_2-8,0.901,0.645,2.211,1000,hist_gradient_boosting,spatial_block,1,logs_coords,blocks5_buffer20,20261022
+31_2-9,0.894,0.65,2.064,1000,hist_gradient_boosting,spatial_block,1,logs_coords,blocks5_buffer20,20261022
+31_3-1,0.836,0.521,2.305,1000,hist_gradient_boosting,spatial_block,1,logs_coords,blocks5_buffer20,20261022
+31_3-2,0.871,0.685,2.103,1000,hist_gradient_boosting,spatial_block,1,logs_coords,blocks5_buffer20,20261022
+31_3-3,0.802,0.429,2.929,1000,hist_gradient_boosting,spatial_block,1,logs_coords,blocks5_buffer20,20261022
+31_3-4,0.798,0.725,1.684,1000,hist_gradient_boosting,spatial_block,1,logs_coords,blocks5_buffer20,20261022
+31_4-10,0.833,0.728,1.702,1000,hist_gradient_boosting,spatial_block,1,logs_coords,blocks5_buffer20,20261022
+31_4-5,0.887,0.762,1.555,1000,hist_gradient_boosting,spatial_block,1,logs_coords,blocks5_buffer20,20261022
+31_5-4 S,0.432,0.173,1.665,1000,hist_gradient_boosting,spatial_block,1,logs_coords,blocks5_buffer20,20261022
+31_6-5,0.828,0.589,2.081,1000,hist_gradient_boosting,spatial_block,1,logs_coords,blocks5_buffer20,20261022
+31_6-8,0.833,0.672,1.977,1000,hist_gradient_boosting,spatial_block,1,logs_coords,blocks5_buffer20,20261022
+32_2-1,0.944,0.727,2.112,1000,hist_gradient_boosting,spatial_block,1,logs_coords,blocks5_buffer20,20261022
+35_11-10,0.9,0.823,1.743,1000,hist_gradient_boosting,spatial_block,1,logs_coords,blocks5_buffer20,20261022
+35_11-7,0.883,0.688,2.228,1000,hist_gradient_boosting,spatial_block,1,logs_coords,blocks5_buffer20,20261022
+15_9-13,0.936,0.872,1.452,1000,hist_gradient_boosting,spatial_block,2,logs_coords,blocks5_buffer20,20261022
+15_9-14,0.585,0.53,1.447,1000,hist_gradient_boosting,spatial_block,2,logs_coords,blocks5_buffer20,20261022
+15_9-15,0.83,0.788,1.481,1000,hist_gradient_boosting,spatial_block,2,logs_coords,blocks5_buffer20,20261022
+15_9-17,0.935,0.82,1.619,1000,hist_gradient_boosting,spatial_block,2,logs_coords,blocks5_buffer20,20261022
+15_9-23,0.893,0.831,1.658,1000,hist_gradient_boosting,spatial_block,2,logs_coords,blocks5_buffer20,20261022
+16_10-1,0.886,0.843,1.611,1000,hist_gradient_boosting,spatial_block,2,logs_coords,blocks5_buffer20,20261022
+16_10-2,0.852,0.506,2.85,1000,hist_gradient_boosting,spatial_block,2,logs_coords,blocks5_buffer20,20261022
+16_10-3,0.801,0.744,1.421,1000,hist_gradient_boosting,spatial_block,2,logs_coords,blocks5_buffer20,20261022
+16_10-5,0.931,0.777,2.823,1000,hist_gradient_boosting,spatial_block,2,logs_coords,blocks5_buffer20,20261022
+16_11-1 ST3,0.63,0.551,1.673,1000,hist_gradient_boosting,spatial_block,2,logs_coords,blocks5_buffer20,20261022
+16_2-11 A,0.885,0.787,1.633,1000,hist_gradient_boosting,spatial_block,2,logs_coords,blocks5_buffer20,20261022
+16_2-16,0.849,0.729,1.812,1000,hist_gradient_boosting,spatial_block,2,logs_coords,blocks5_buffer20,20261022
+16_2-6,0.866,0.726,1.775,1000,hist_gradient_boosting,spatial_block,2,logs_coords,blocks5_buffer20,20261022
+16_2-7,0.863,0.715,2.06,1000,hist_gradient_boosting,spatial_block,2,logs_coords,blocks5_buffer20,20261022
+16_4-1,0.773,0.62,1.572,1000,hist_gradient_boosting,spatial_block,2,logs_coords,blocks5_buffer20,20261022
+16_5-3,0.854,0.65,2.079,1000,hist_gradient_boosting,spatial_block,2,logs_coords,blocks5_buffer20,20261022
+16_7-4,0.88,0.778,2.059,1000,hist_gradient_boosting,spatial_block,2,logs_coords,blocks5_buffer20,20261022
+16_7-5,0.916,0.847,1.361,1000,hist_gradient_boosting,spatial_block,2,logs_coords,blocks5_buffer20,20261022
+16_7-6,0.771,0.69,1.59,1000,hist_gradient_boosting,spatial_block,2,logs_coords,blocks5_buffer20,20261022
+16_8-1,0.543,0.511,1.33,1000,hist_gradient_boosting,spatial_block,2,logs_coords,blocks5_buffer20,20261022
+17_11-1,0.619,0.583,1.646,1000,hist_gradient_boosting,spatial_block,2,logs_coords,blocks5_buffer20,20261022
+17_4-1,0.684,0.405,2.78,1000,hist_gradient_boosting,spatial_block,2,logs_coords,blocks5_buffer20,20261022
+7_1-1,0.933,0.774,1.955,1000,hist_gradient_boosting,spatial_block,2,logs_coords,blocks5_buffer20,20261022
+7_1-2 S,0.958,0.879,1.804,1000,hist_gradient_boosting,spatial_block,2,logs_coords,blocks5_buffer20,20261022
+29_3-1,0.933,0.721,2.72,1000,hist_gradient_boosting,spatial_block,3,logs_coords,blocks5_buffer20,20261022
+33_5-2,0.928,0.729,1.704,1000,hist_gradient_boosting,spatial_block,3,logs_coords,blocks5_buffer20,20261022
+33_6-3 S,0.977,0.942,1.64,1000,hist_gradient_boosting,spatial_block,3,logs_coords,blocks5_buffer20,20261022
+33_9-1,0.918,0.588,2.616,1000,hist_gradient_boosting,spatial_block,3,logs_coords,blocks5_buffer20,20261022
+33_9-17,0.972,0.897,2.291,1000,hist_gradient_boosting,spatial_block,3,logs_coords,blocks5_buffer20,20261022
+34_10-16 R,0.97,0.788,2.645,1000,hist_gradient_boosting,spatial_block,3,logs_coords,blocks5_buffer20,20261022
+34_10-19,0.951,0.793,2.875,1000,hist_gradient_boosting,spatial_block,3,logs_coords,blocks5_buffer20,20261022
+34_10-21,0.965,0.813,2.607,1000,hist_gradient_boosting,spatial_block,3,logs_coords,blocks5_buffer20,20261022
+34_10-33,0.978,0.789,2.126,1000,hist_gradient_boosting,spatial_block,3,logs_coords,blocks5_buffer20,20261022
+34_10-35,0.8,0.34,2.855,1000,hist_gradient_boosting,spatial_block,3,logs_coords,blocks5_buffer20,20261022
+34_11-1,0.972,0.67,2.083,1000,hist_gradient_boosting,spatial_block,3,logs_coords,blocks5_buffer20,20261022
+34_11-2 S,0.933,0.809,1.782,1000,hist_gradient_boosting,spatial_block,3,logs_coords,blocks5_buffer20,20261022
+34_2-4,0.571,0.17,2.215,1000,hist_gradient_boosting,spatial_block,3,logs_coords,blocks5_buffer20,20261022
+34_3-1 A,0.941,0.685,2.095,1000,hist_gradient_boosting,spatial_block,3,logs_coords,blocks5_buffer20,20261022
+34_3-2 S,0.945,0.86,1.38,1000,hist_gradient_boosting,spatial_block,3,logs_coords,blocks5_buffer20,20261022
+34_3-3 A,0.973,0.94,1.481,1000,hist_gradient_boosting,spatial_block,3,logs_coords,blocks5_buffer20,20261022
+34_4-10 R,0.879,0.734,1.757,1000,hist_gradient_boosting,spatial_block,3,logs_coords,blocks5_buffer20,20261022
+34_5-1 A,0.957,0.891,1.957,1000,hist_gradient_boosting,spatial_block,3,logs_coords,blocks5_buffer20,20261022
+34_5-1 S,0.921,0.686,1.891,1000,hist_gradient_boosting,spatial_block,3,logs_coords,blocks5_buffer20,20261022
+34_6-1 S,0.948,0.611,2.276,1000,hist_gradient_boosting,spatial_block,3,logs_coords,blocks5_buffer20,20261022
+34_7-13,0.983,0.713,2.437,1000,hist_gradient_boosting,spatial_block,3,logs_coords,blocks5_buffer20,20261022
+34_7-20,0.907,0.819,1.398,1000,hist_gradient_boosting,spatial_block,3,logs_coords,blocks5_buffer20,20261022
+34_7-21,0.887,0.777,1.494,1000,hist_gradient_boosting,spatial_block,3,logs_coords,blocks5_buffer20,20261022
+34_8-1,0.96,0.84,2.089,1000,hist_gradient_boosting,spatial_block,3,logs_coords,blocks5_buffer20,20261022
+34_8-3,0.888,0.71,2.213,1000,hist_gradient_boosting,spatial_block,3,logs_coords,blocks5_buffer20,20261022
+34_8-7 R,0.953,0.467,2.581,1000,hist_gradient_boosting,spatial_block,3,logs_coords,blocks5_buffer20,20261022
+34_12-1,0.821,0.53,2.643,1000,hist_gradient_boosting,spatial_block,4,logs_coords,blocks5_buffer20,20261022
+35_11-1,0.899,0.635,1.701,1000,hist_gradient_boosting,spatial_block,4,logs_coords,blocks5_buffer20,20261022
+35_11-11,0.775,0.633,1.468,1000,hist_gradient_boosting,spatial_block,4,logs_coords,blocks5_buffer20,20261022
+35_11-12,0.889,0.799,1.207,1000,hist_gradient_boosting,spatial_block,4,logs_coords,blocks5_buffer20,20261022
+35_11-13,0.897,0.618,1.871,1000,hist_gradient_boosting,spatial_block,4,logs_coords,blocks5_buffer20,20261022
+35_11-15 S,0.937,0.469,2.175,1000,hist_gradient_boosting,spatial_block,4,logs_coords,blocks5_buffer20,20261022
+35_11-5,0.954,0.686,1.756,1000,hist_gradient_boosting,spatial_block,4,logs_coords,blocks5_buffer20,20261022
+35_11-6,0.934,0.759,2.247,1000,hist_gradient_boosting,spatial_block,4,logs_coords,blocks5_buffer20,20261022
+35_12-1,0.82,0.652,2.075,1000,hist_gradient_boosting,spatial_block,4,logs_coords,blocks5_buffer20,20261022
+35_3-7 S,0.915,0.463,2.075,1000,hist_gradient_boosting,spatial_block,4,logs_coords,blocks5_buffer20,20261022
+35_4-1,0.946,0.777,1.996,1000,hist_gradient_boosting,spatial_block,4,logs_coords,blocks5_buffer20,20261022
+35_6-2 S,0.82,0.527,2.815,1000,hist_gradient_boosting,spatial_block,4,logs_coords,blocks5_buffer20,20261022
+35_8-4,0.832,0.773,1.181,1000,hist_gradient_boosting,spatial_block,4,logs_coords,blocks5_buffer20,20261022
+35_8-6 S,0.973,0.652,2.694,1000,hist_gradient_boosting,spatial_block,4,logs_coords,blocks5_buffer20,20261022
+35_9-10 S,0.832,0.231,2.238,1000,hist_gradient_boosting,spatial_block,4,logs_coords,blocks5_buffer20,20261022
+35_9-2,0.851,0.72,1.865,1000,hist_gradient_boosting,spatial_block,4,logs_coords,blocks5_buffer20,20261022
+35_9-5,0.741,0.544,1.842,1000,hist_gradient_boosting,spatial_block,4,logs_coords,blocks5_buffer20,20261022
+35_9-6 S,0.898,0.694,1.937,1000,hist_gradient_boosting,spatial_block,4,logs_coords,blocks5_buffer20,20261022
+35_9-7,0.866,0.657,3.187,1000,hist_gradient_boosting,spatial_block,4,logs_coords,blocks5_buffer20,20261022
+35_9-8,0.656,0.226,2.151,1000,hist_gradient_boosting,spatial_block,4,logs_coords,blocks5_buffer20,20261022
+36_7-3,0.828,0.435,2.166,1000,hist_gradient_boosting,spatial_block,4,logs_coords,blocks5_buffer20,20261022

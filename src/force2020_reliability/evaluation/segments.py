@@ -78,9 +78,22 @@ def evaluate_well_segments(
     predicted_thickness: dict[int, float] = {}
     true_segment_count = 0
     predicted_segment_count = 0
+    adjacent_pairs = 0
+    pred_adjacent_same = 0
+    true_adjacent_same = 0
 
     for run_id, run in data.groupby("run_id", observed=True):
-        run = run.copy()
+        run = run.copy().sort_values("DEPTH_MD")
+        y_pred_ordered = run["y_pred"].to_numpy()
+        y_true_ordered = run["y_true"].to_numpy()
+        if len(run) > 1:
+            adjacent_pairs += len(run) - 1
+            pred_adjacent_same += int(
+                (y_pred_ordered[1:] == y_pred_ordered[:-1]).sum()
+            )
+            true_adjacent_same += int(
+                (y_true_ordered[1:] == y_true_ordered[:-1]).sum()
+            )
         true_boundary_frame = _boundaries(run, "y_true")
         predicted_boundary_frame = _boundaries(run, "y_pred")
         true_boundaries = true_boundary_frame["boundary_m"].to_numpy(dtype=float)
@@ -147,6 +160,16 @@ def evaluate_well_segments(
         "thickness_mae_m": float(np.mean(absolute_errors)) if absolute_errors else 0.0,
         "thickness_relative_error": (
             total_absolute_error / total_true if total_true > 0 else float("nan")
+        ),
+        "adjacent_pairs": int(adjacent_pairs),
+        "pred_adjacent_agreement": (
+            pred_adjacent_same / adjacent_pairs if adjacent_pairs else float("nan")
+        ),
+        "true_adjacent_agreement": (
+            true_adjacent_same / adjacent_pairs if adjacent_pairs else float("nan")
+        ),
+        "pred_flip_rate": (
+            1.0 - pred_adjacent_same / adjacent_pairs if adjacent_pairs else float("nan")
         ),
     }
 
